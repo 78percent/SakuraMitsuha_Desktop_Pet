@@ -1,0 +1,92 @@
+{
+  "back_hair": {
+    "source_rect": [
+      6,
+      13,
+      361,
+      511
+    ],
+    "opaque_pixels": 126251
+  },
+  "head_open": {
+    "source_rect": [
+      652,
+      56,
+      372,
+      471
+    ],
+    "opaque_pixels": 97755
+  },
+  "torso": {
+    "source_rect": [
+      342,
+      106,
+      380,
+      416
+    ],
+    "opaque_pixels": 83387
+  },
+  "head_closed": {
+    "source_rect": [
+      3,
+      548,
+      376,
+      468
+    ],
+    "opaque_pixels": 99812
+  },
+  "right_arm": {
+    "source_rect": [
+      749,
+      589,
+      232,
+      372
+    ],
+    "opaque_pixels": 43789
+  },
+  "left_arm": {
+    "source_rect": [
+      388,
+      593,
+      229,
+      407
+    ],
+    "opaque_pixels": 48662
+  },
+  "left_leg": {
+    "source_rect": [
+      80,
+      1030,
+      152,
+      465
+    ],
+    "opaque_pixels": 40166
+  },
+  "right_leg": {
+    "source_rect": [
+      471,
+      1032,
+      125,
+      463
+    ],
+    "opaque_pixels": 37856
+  },
+  "front_right": {
+    "source_rect": [
+      867,
+      1060,
+      144,
+      375
+    ],
+    "opaque_pixels": 23016
+  },
+  "front_left": {
+    "source_rect": [
+      669,
+      1061,
+      135,
+      374
+    ],
+    "opaque_pixels": 22440
+  }
+}
