@@ -11,7 +11,7 @@
 ## 3. Integration and publication
 
 - [x] 3.1 Verify protected hashes, startup and relevant regressions; record observed UI and runtime evidence with limitations.
-- [ ] 3.2 Commit and push public SakuraMitsuha_Desktop_Pet repository, verify remote commit and visibility and record its URL.
+- [x] 3.2 Commit and push public SakuraMitsuha_Desktop_Pet repository, verify remote commit and visibility and record its URL.
 
 ## Workflow follow-up
 

@@ -12,7 +12,7 @@
 - 40 related local checks passed in 45.384 seconds: public-release interactions, configuration, local HTTP transport, startup, single-instance IPC, double click, rollback boundaries, expressions and chat identity. No real DeepSeek chat was sent this round.
 - A fresh export of the Git index decoded 9 compatibility images and 11 Sakura parts, reported `key_configured: false`, and passed the README command's complete 23-test suite in 43.410 seconds. This export reused installed dependencies through a local virtual-environment junction; it was not a fresh network dependency install.
 - All 185 protected files matched pre-change SHA-256 values, including image/authoring assets and the animation, face and material source files. Persona remains in the unchanged animation source. No new performance measurement or visual-animation acceptance claim.
-- Initial index audit covered 66 files / 9,456,889 bytes: no configured secret values, credential-shaped values, private runtime paths, machine user paths or over-limit files. Final audit is repeated before commit. Real `.env`, RAG, config, caches and historical local artifacts are excluded.
+- Initial index audit covered 66 files / 9,456,889 bytes; the pre-commit audit, including this record, covered 67 files / 9,460,021 bytes. Both found no configured secret values, credential-shaped values, private runtime paths, machine user paths or over-limit files. Real `.env`, RAG, config, caches and historical local artifacts are excluded.
 - OpenSpec strict validation passed.
 
 ## Limitations and diagnostic history
@@ -25,4 +25,8 @@
 
 ## Publication
 
-Target: `https://github.com/78percent/SakuraMitsuha_Desktop_Pet`, public. Final remote verification is recorded after push.
+Repository: <https://github.com/78percent/SakuraMitsuha_Desktop_Pet>
+
+GitHub confirmed `PUBLIC`, default branch `main`, and initial implementation commit `55d628e1ffe00c0abca153b7baada1893cc79f86`, matching the local commit after successful push. This publication record is a subsequent documentation-only update.
+
+The normal desktop instance restarted at 2026-10-25 14:10:31 +08:00. Parent PID 35396 and window PID 39180 were checked against the project process; window title `佐仓三叶`, responding true, stderr length zero. This confirms startup, not a completed native visual or new performance acceptance.
