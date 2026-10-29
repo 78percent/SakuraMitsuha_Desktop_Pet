@@ -1,15 +1,28 @@
 # SakuraMitsuha Desktop Pet · 佐仓三叶桌宠
 
 <p align="center">
-  <img src="assets/reference/character_v1.png" alt="佐仓三叶角色立绘" height="320">
+  <img src="assets/showcase/live2d-model-v17.png" alt="佐仓三叶写实模型全身预览" height="360">
 </p>
 
-基于 [CeTaPet-AI-DeskTopPet-DeepSeek](https://github.com/kmjs1915/CeTaPet-AI-DeskTopPet-DeepSeek) 的二次开发桌宠。当前提供默认 Q 版角色，以及可选的写实版 v11 动画帧播放；支持 DeepSeek 聊天、参考资料、表情和桌面交互。
+基于 [CeTaPet-AI-DeskTopPet-DeepSeek](https://github.com/kmjs1915/CeTaPet-AI-DeskTopPet-DeepSeek) 二次开发的佐仓三叶桌宠。项目有独立的 Q 版分层形象，以及另一套经过拆件、建模和骨骼绑定的写实形象。桌宠目前可在两种形象间切换，并支持 DeepSeek 聊天与桌面交互。
+
+## 两套角色模型
+
+| Q 版 | 写实版 |
+| --- | --- |
+| 11 张分层图片组成，默认显示；支持待机、眨眼、呼吸、发摆和五种表情。 | 独立的 Live2D/Cubism 制作路线，已有模型、贴图、骨骼绑定及表情数据。桌宠当前使用 v11 模型预先渲染的 6 秒动画帧循环。 |
+
+上方全身图展示写实模型的 v17 制作预览。下图是 v11 腿部骨骼与关节位置的局部示意，并非整套骨骼图：
+
+<p align="center">
+  <img src="assets/showcase/live2d-leg-rig-v11.png" alt="写实模型腿部骨骼与关节示意" height="300">
+</p>
+
+制作目录另有后续模型版本：v22 增加发带跟随绑定，微风待机曲线也已单独保留。眼脸、衣发衔接及连续变形仍在调整；这些制作版本尚未替换仓库中的 v11 运行包。目前写实版通过预渲染帧播放，暂不在桌宠中实时驱动骨骼。
 
 ## 当前功能
 
-- Q 版：分层立绘、待机、眨眼、呼吸、发摆和五种表情。
-- 写实版：基于 v11 模型预先渲染的 6 秒循环动画；目前是帧播放，整模型仍在制作和视觉调整中。
+- 两种角色形象：Q 版默认显示，写实版提供 v11 模型的 6 秒循环动画。
 - 两种样式均可使用透明材质与渐变转场；角色样式从右键菜单切换。
 - 左键拖动与位置记忆、角色大小调整、系统托盘及重复启动召回。
 - DeepSeek 多轮聊天、账户余额查询、API 密钥设置；可导入 `.txt`、`.docx` 作为聊天参考资料。
@@ -69,10 +82,11 @@ CetaPet/model_selector.py              Q 版与写实版切换
 CetaPet/sakura_animation.py            Q 版分层动画
 CetaPet/sakura_material.py             透明材质
 CetaPet/asset_library/sakura/in-use/   当前运行素材
+assets/showcase/                        模型与骨骼展示图
 requirements.txt                       运行依赖
 ```
 
-`CetaPet` 目录名沿用上游结构。写实版 v11 运行包包含帧动画、模型及校验资源，但当前桌宠使用预渲染帧播放；包内模型不等于实时渲染已接入。
+`CetaPet` 目录名沿用上游结构。写实版 v11 运行包包含动画帧、Cubism 模型、贴图和校验资源；完整的可编辑制作工程及后续试作版本未放入发布仓库。
 
 ## 来源与许可
 
