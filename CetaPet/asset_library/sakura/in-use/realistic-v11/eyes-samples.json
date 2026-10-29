@@ -1,0 +1,3260 @@
+[
+  {
+    "frame": 0,
+    "time": 0.0,
+    "parameters": {
+      "ParamAngleX": 0.0,
+      "ParamAngleY": 0.0,
+      "ParamBreath": 0.0,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.0,
+      "ParamEyeBallY": 0.0,
+      "ParamMouthOpenY": 0.0
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203995,
+    "max_alpha_delta": null,
+    "rgba_sha256": "33e42b3419f1b8c27c521a2a202a7d05cd322cd42aee1babe65c0872e511639f"
+  },
+  {
+    "frame": 1,
+    "time": 0.03333333333333333,
+    "parameters": {
+      "ParamAngleX": 0.4187939604300116,
+      "ParamAngleY": 0.2092694212323759,
+      "ParamBreath": 0.0012179748700879012,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.03489949670250097,
+      "ParamEyeBallY": 0.024414765810443856,
+      "ParamMouthOpenY": 0.0007307849220527406
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204023,
+    "max_alpha_delta": 187,
+    "rgba_sha256": "a2e96948895141642846443099cb62d2b10ded7a6ae7d0df76b2f3b886b33e29"
+  },
+  {
+    "frame": 2,
+    "time": 0.06666666666666667,
+    "parameters": {
+      "ParamAngleX": 0.8370776849295036,
+      "ParamAngleY": 0.41751930288019634,
+      "ParamBreath": 0.004865965629214819,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.0697564737441253,
+      "ParamEyeBallY": 0.0487105853360229,
+      "ParamMouthOpenY": 0.0029195793775288912
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204031,
+    "max_alpha_delta": 169,
+    "rgba_sha256": "c878dc9c1a5df99d70b368f53ac86bef166307fa7de7c3cd52a405e421b633a5"
+  },
+  {
+    "frame": 3,
+    "time": 0.1,
+    "parameters": {
+      "ParamAngleX": 1.2543415592118414,
+      "ParamAngleY": 0.623735072453278,
+      "ParamBreath": 0.010926199633097156,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.10452846326765346,
+      "ParamEyeBallY": 0.07276909178621575,
+      "ParamMouthOpenY": 0.006555719779858293
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204061,
+    "max_alpha_delta": 230,
+    "rgba_sha256": "b136a80e4249ab1df974291370bdd347359d1001065d4dd564d2aede39b596b0"
+  },
+  {
+    "frame": 4,
+    "time": 0.13333333333333333,
+    "parameters": {
+      "ParamAngleX": 1.6700772115207854,
+      "ParamAngleY": 0.8269120674509975,
+      "ParamBreath": 0.019369152030840553,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.13917310096006544,
+      "ParamEyeBallY": 0.09647307453594971,
+      "ParamMouthOpenY": 0.011621491218504332
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204063,
+    "max_alpha_delta": 206,
+    "rgba_sha256": "b58f75de6c8763f81ab470f1d5082e03b299f4dddccdf21269b7d59e92c9b4b8"
+  },
+  {
+    "frame": 5,
+    "time": 0.16666666666666666,
+    "parameters": {
+      "ParamAngleX": 2.083778132003164,
+      "ParamAngleY": 1.0260604299770062,
+      "ParamBreath": 0.030153689607045786,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.17364817766693033,
+      "ParamEyeBallY": 0.11970705016398404,
+      "ParamMouthOpenY": 0.018092213764227472
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204112,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "f1d4d9849ec667e0c064718f7b8efd7127e423e766319ad6384db07311af5d1a"
+  },
+  {
+    "frame": 6,
+    "time": 0.2,
+    "parameters": {
+      "ParamAngleX": 2.494940289813112,
+      "ParamAngleY": 1.2202099292274005,
+      "ParamBreath": 0.04322727117869957,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.20791169081775931,
+      "ParamEyeBallY": 0.14235782507653005,
+      "ParamMouthOpenY": 0.02593636270721974
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204164,
+    "max_alpha_delta": 212,
+    "rgba_sha256": "9e0c0a83c719fb526922408417e7e6c678f3f526fb32d8d4ce9d913868f37b1f"
+  },
+  {
+    "frame": 7,
+    "time": 0.23333333333333334,
+    "parameters": {
+      "ParamAngleX": 2.903062747196013,
+      "ParamAngleY": 1.4084146883576725,
+      "ParamBreath": 0.058526203570536506,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.24192189559966773,
+      "ParamEyeBallY": 0.16431504697506177,
+      "ParamMouthOpenY": 0.0351157221423219
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204184,
+    "max_alpha_delta": 232,
+    "rgba_sha256": "969a664b3a19c1cd07722ca63ced30fcc59fe7f6191296c7f62cf46e82c1fca2"
+  },
+  {
+    "frame": 8,
+    "time": 0.26666666666666666,
+    "parameters": {
+      "ParamAngleX": 3.30764826980399,
+      "ParamAngleY": 1.5897577926996147,
+      "ParamBreath": 0.07597595192178702,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.27563735581699916,
+      "ParamEyeBallY": 0.1854717424816217,
+      "ParamMouthOpenY": 0.04558557115307221
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204193,
+    "max_alpha_delta": 241,
+    "rgba_sha256": "ef137a6d92b7fcd07e637fb9233f0f2e1ba3dcbdb99c07360d3e21c8312b8624"
+  },
+  {
+    "frame": 9,
+    "time": 0.3,
+    "parameters": {
+      "ParamAngleX": 3.7082039324993685,
+      "ParamAngleY": 1.7633557568774194,
+      "ParamBreath": 0.09549150281252627,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.3090169943749474,
+      "ParamEyeBallY": 0.2057248383023656,
+      "ParamMouthOpenY": 0.05729490168751576
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204195,
+    "max_alpha_delta": 227,
+    "rgba_sha256": "ccd91d554239b15230480000b7abebb9186c3a23cea391427f352df50c06021e"
+  },
+  {
+    "frame": 10,
+    "time": 0.3333333333333333,
+    "parameters": {
+      "ParamAngleX": 4.104241719908025,
+      "ParamAngleY": 1.9283628290596178,
+      "ParamBreath": 0.116977778440511,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.3420201433256687,
+      "ParamEyeBallY": 0.2249756633902887,
+      "ParamMouthOpenY": 0.0701866670643066
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204229,
+    "max_alpha_delta": 186,
+    "rgba_sha256": "c62f5e5b90afd70ee43136b536928736439f3bbf8e95ddbcc6cf7eee5c46ff0a"
+  },
+  {
+    "frame": 11,
+    "time": 0.36666666666666664,
+    "parameters": {
+      "ParamAngleX": 4.4952791209909435,
+      "ParamAngleY": 2.0839751113769913,
+      "ParamBreath": 0.14033009983067435,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.37460659341591196,
+      "ParamEyeBallY": 0.243130429660649,
+      "ParamMouthOpenY": 0.0841980598984046
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204241,
+    "max_alpha_delta": 228,
+    "rgba_sha256": "a407334b98c508516d7ea744e7b35b17f420016efa8d8eaaacf040cbf52a229e"
+  },
+  {
+    "frame": 12,
+    "time": 0.4,
+    "parameters": {
+      "ParamAngleX": 4.880839716909602,
+      "ParamAngleY": 2.2294344764321825,
+      "ParamBreath": 0.16543469682057088,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.40673664307580015,
+      "ParamEyeBallY": 0.26010068891708793,
+      "ParamMouthOpenY": 0.09926081809234252
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204273,
+    "max_alpha_delta": 239,
+    "rgba_sha256": "e0ae4bc6be1043628bfa21a4e17304341f65f97df11b40aa934be180d8405202"
+  },
+  {
+    "frame": 13,
+    "time": 0.43333333333333335,
+    "parameters": {
+      "ParamAngleX": 5.260453761468929,
+      "ParamAngleY": 2.3640322608201663,
+      "ParamBreath": 0.19216926233717085,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.4383711467890774,
+      "ParamEyeBallY": 0.27580376376235266,
+      "ParamMouthOpenY": 0.11530155740230251
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204314,
+    "max_alpha_delta": 221,
+    "rgba_sha256": "2c6d723df4576081080ae0131fd009a9facc7a6db3ed7c0829ea73392a5f36a2"
+  },
+  {
+    "frame": 14,
+    "time": 0.4666666666666667,
+    "parameters": {
+      "ParamAngleX": 5.63365875343069,
+      "ParamAngleY": 2.4871127176651253,
+      "ParamBreath": 0.2204035482646266,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.4694715627858908,
+      "ParamEyeBallY": 0.2901631503942646,
+      "ParamMouthOpenY": 0.13224212895877596
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204331,
+    "max_alpha_delta": 234,
+    "rgba_sha256": "02e7d8042a14829f17d1bb80a27de913007b1add43aa18a32a6ca2d119c6f50d"
+  },
+  {
+    "frame": 15,
+    "time": 0.5,
+    "parameters": {
+      "ParamAngleX": 5.999999999999999,
+      "ParamAngleY": 2.598076211353316,
+      "ParamBreath": 0.24999999999999994,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.49999999999999994,
+      "ParamEyeBallY": 0.3031088913245535,
+      "ParamMouthOpenY": 0.14999999999999997
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204349,
+    "max_alpha_delta": 232,
+    "rgba_sha256": "cb5ea6ae2ac96913baba24a3d8587b682145753d56595fd45f8269548453bcf6"
+  },
+  {
+    "frame": 16,
+    "time": 0.5333333333333333,
+    "parameters": {
+      "ParamAngleX": 6.359031170798459,
+      "ParamAngleY": 2.6963821388975013,
+      "ParamBreath": 0.2808144266054613,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5299192642332049,
+      "ParamEyeBallY": 0.31457791620470843,
+      "ParamMouthOpenY": 0.16848865596327678
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204375,
+    "max_alpha_delta": 216,
+    "rgba_sha256": "0710fd3d71ad4e8d6e7dd0b0ef986454f51ceaae973d8fea8e82ddaa4df42eb3"
+  },
+  {
+    "frame": 17,
+    "time": 0.5666666666666667,
+    "parameters": {
+      "ParamAngleX": 6.7103148416489615,
+      "ParamAngleY": 2.781551563700362,
+      "ParamBreath": 0.3126967032920439,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5591929034707468,
+      "ParamEyeBallY": 0.32451434909837557,
+      "ParamMouthOpenY": 0.18761802197522634
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204395,
+    "max_alpha_delta": 226,
+    "rgba_sha256": "d99da8939dfa108d5e7e797b33f8989d616b3346b633a4f92f8be6652208ed54"
+  },
+  {
+    "frame": 18,
+    "time": 0.6,
+    "parameters": {
+      "ParamAngleX": 7.053423027509678,
+      "ParamAngleY": 2.8531695488854605,
+      "ParamBreath": 0.3454915028125263,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5877852522924731,
+      "ParamEyeBallY": 0.3328697807033037,
+      "ParamMouthOpenY": 0.20729490168751577
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204434,
+    "max_alpha_delta": 189,
+    "rgba_sha256": "fcc7b0ca51ead00d3ff7954f1be974f55155814245b78d678b890a159a54fd59"
+  },
+  {
+    "frame": 19,
+    "time": 0.6333333333333333,
+    "parameters": {
+      "ParamAngleX": 7.387937703907898,
+      "ParamAngleY": 2.9108871788279895,
+      "ParamBreath": 0.37903905220016604,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6156614753256582,
+      "ParamEyeBallY": 0.33960350419659874,
+      "ParamMouthOpenY": 0.22742343132009962
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204472,
+    "max_alpha_delta": 207,
+    "rgba_sha256": "5b5313360d90afd768d786d6ee276dfafa24d17bc2141ff0d212e23bd513a82a"
+  },
+  {
+    "frame": 20,
+    "time": 0.6666666666666666,
+    "parameters": {
+      "ParamAngleX": 7.713451316238471,
+      "ParamAngleY": 2.954423259036624,
+      "ParamBreath": 0.4131759111665348,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6427876096865393,
+      "ParamEyeBallY": 0.34468271355427277,
+      "ParamMouthOpenY": 0.24790554669992088
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204505,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "947f34af9326653325d71691432b4ebe31fd13be11bd8ed1887f0c7400735800"
+  },
+  {
+    "frame": 21,
+    "time": 0.7,
+    "parameters": {
+      "ParamAngleX": 8.029567276306299,
+      "ParamAngleY": 2.9835656861048196,
+      "ParamBreath": 0.4477357683661733,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6691306063588582,
+      "ParamEyeBallY": 0.34808266337889565,
+      "ParamMouthOpenY": 0.268641461019704
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204471,
+    "max_alpha_delta": 195,
+    "rgba_sha256": "51784be5fd00b94a8838d20b80ae1e3643e75e982994c0d55a1986315d80d0e1"
+  },
+  {
+    "frame": 22,
+    "time": 0.7333333333333333,
+    "parameters": {
+      "ParamAngleX": 8.335900445507965,
+      "ParamAngleY": 2.998172481057287,
+      "ParamBreath": 0.4825502516487494,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6946583704589971,
+      "ParamEyeBallY": 0.3497867894566835,
+      "ParamMouthOpenY": 0.2895301509892496
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204516,
+    "max_alpha_delta": 217,
+    "rgba_sha256": "4f2ec935973e258e6c65743eaaf722d5f2e1d9904892885e6fa3fdc8e34f9a17"
+  },
+  {
+    "frame": 23,
+    "time": 0.7666666666666667,
+    "parameters": {
+      "ParamAngleX": 8.632077604063815,
+      "ParamAngleY": 2.998172481057287,
+      "ParamBreath": 0.5174497483512506,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.7193398003386512,
+      "ParamEyeBallY": 0.3497867894566835,
+      "ParamMouthOpenY": 0.3104698490107503
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204522,
+    "max_alpha_delta": 197,
+    "rgba_sha256": "27ab4f95c325d7887a98aa4a06fb17a258e4ea2752d6b0da0f9b34e42869e2bb"
+  },
+  {
+    "frame": 24,
+    "time": 0.8,
+    "parameters": {
+      "ParamAngleX": 8.91773790572873,
+      "ParamAngleY": 2.98356568610482,
+      "ParamBreath": 0.5522642316338267,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.7431448254773941,
+      "ParamEyeBallY": 0.34808266337889565,
+      "ParamMouthOpenY": 0.331358538980296
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204508,
+    "max_alpha_delta": 228,
+    "rgba_sha256": "27f78e421dc0c281a4035981d78c722b601e3bb36db1a0b6f80e15f6f21e9dcc"
+  },
+  {
+    "frame": 25,
+    "time": 0.8333333333333334,
+    "parameters": {
+      "ParamAngleX": 9.192533317427737,
+      "ParamAngleY": 2.954423259036624,
+      "ParamBreath": 0.5868240888334652,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.766044443118978,
+      "ParamEyeBallY": 0.34468271355427277,
+      "ParamMouthOpenY": 0.3520944533000791
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204533,
+    "max_alpha_delta": 207,
+    "rgba_sha256": "be8f1defc1eb883534341dbe139e29712108c1cb64cb6185b90715bed47a0aef"
+  },
+  {
+    "frame": 26,
+    "time": 0.8666666666666667,
+    "parameters": {
+      "ParamAngleX": 9.456129043280665,
+      "ParamAngleY": 2.9108871788279895,
+      "ParamBreath": 0.6209609477998339,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.788010753606722,
+      "ParamEyeBallY": 0.33960350419659874,
+      "ParamMouthOpenY": 0.37257656867990036
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204542,
+    "max_alpha_delta": 212,
+    "rgba_sha256": "41c253d71a4771f33d586ccb8e6450295d177f00a4460a185ae41311b8682089"
+  },
+  {
+    "frame": 27,
+    "time": 0.9,
+    "parameters": {
+      "ParamAngleX": 9.70820393249937,
+      "ParamAngleY": 2.853169548885461,
+      "ParamBreath": 0.6545084971874737,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8090169943749475,
+      "ParamEyeBallY": 0.33286978070330375,
+      "ParamMouthOpenY": 0.39270509831248424
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204561,
+    "max_alpha_delta": 250,
+    "rgba_sha256": "910a1c5369a42148a9d5d92e99ac59889d8962e0771170fa7fcd259adebd5543"
+  },
+  {
+    "frame": 28,
+    "time": 0.9333333333333333,
+    "parameters": {
+      "ParamAngleX": 9.948450870660501,
+      "ParamAngleY": 2.7815515637003623,
+      "ParamBreath": 0.687303296707956,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8290375725550417,
+      "ParamEyeBallY": 0.32451434909837557,
+      "ParamMouthOpenY": 0.41238197802477355
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204615,
+    "max_alpha_delta": 184,
+    "rgba_sha256": "debdaea6e9302ebddca8a743a30ae3238bbf6361224d5c9591ba6d1e02778ed8"
+  },
+  {
+    "frame": 29,
+    "time": 0.9666666666666667,
+    "parameters": {
+      "ParamAngleX": 10.17657715387711,
+      "ParamAngleY": 2.6963821388975013,
+      "ParamBreath": 0.7191855733945386,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8480480961564258,
+      "ParamEyeBallY": 0.3145779162047085,
+      "ParamMouthOpenY": 0.43151134403672314
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204641,
+    "max_alpha_delta": 186,
+    "rgba_sha256": "a55cf05e138ea9a5ef25667f3f780693156e22abd781c899c61aa2ff14801c67"
+  },
+  {
+    "frame": 30,
+    "time": 1.0,
+    "parameters": {
+      "ParamAngleX": 10.392304845413264,
+      "ParamAngleY": 2.598076211353316,
+      "ParamBreath": 0.7499999999999999,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8660254037844386,
+      "ParamEyeBallY": 0.30310889132455354,
+      "ParamMouthOpenY": 0.4499999999999999
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204646,
+    "max_alpha_delta": 180,
+    "rgba_sha256": "6de4e2351ecd7cf5167c11dd7fa85e56454bbf4f4942047f31223b4d8e55b46b"
+  },
+  {
+    "frame": 31,
+    "time": 1.0333333333333334,
+    "parameters": {
+      "ParamAngleX": 10.595371114307122,
+      "ParamAngleY": 2.4871127176651253,
+      "ParamBreath": 0.7795964517353733,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8829475928589269,
+      "ParamEyeBallY": 0.2901631503942646,
+      "ParamMouthOpenY": 0.46775787104122396
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204663,
+    "max_alpha_delta": 183,
+    "rgba_sha256": "10b8c57f6daa92eaf8b584c6b2f0b6ec2573ecc274579ae78288237c00d9f7c3"
+  },
+  {
+    "frame": 32,
+    "time": 1.0666666666666667,
+    "parameters": {
+      "ParamAngleX": 10.785528555590005,
+      "ParamAngleY": 2.3640322608201663,
+      "ParamBreath": 0.8078307376628291,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.898794046299167,
+      "ParamEyeBallY": 0.27580376376235266,
+      "ParamMouthOpenY": 0.48469844259769745
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204680,
+    "max_alpha_delta": 197,
+    "rgba_sha256": "d124bd218069aef0187f7d35215234c08405de8652478a26ae38dc0d73bce021"
+  },
+  {
+    "frame": 33,
+    "time": 1.1,
+    "parameters": {
+      "ParamAngleX": 10.96254549171121,
+      "ParamAngleY": 2.229434476432183,
+      "ParamBreath": 0.8345653031794291,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9135454576426009,
+      "ParamEyeBallY": 0.260100688917088,
+      "ParamMouthOpenY": 0.5007391819076574
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204713,
+    "max_alpha_delta": 190,
+    "rgba_sha256": "e17e010700f5bbc32e7a8b0ff4de3ad5830c7145ca4c4aa7b0271be256039dc3"
+  },
+  {
+    "frame": 34,
+    "time": 1.1333333333333333,
+    "parameters": {
+      "ParamAngleX": 11.126206254801447,
+      "ParamAngleY": 2.0839751113769927,
+      "ParamBreath": 0.8596699001693255,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9271838545667873,
+      "ParamEyeBallY": 0.2431304296606491,
+      "ParamMouthOpenY": 0.5158019401015953
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204731,
+    "max_alpha_delta": 184,
+    "rgba_sha256": "f39dad7a94c889fc9142ad7adad4c62ff5e95b49ab534a250de1b5fcc3383f7d"
+  },
+  {
+    "frame": 35,
+    "time": 1.1666666666666667,
+    "parameters": {
+      "ParamAngleX": 11.276311449430901,
+      "ParamAngleY": 1.9283628290596173,
+      "ParamBreath": 0.8830222215594892,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9396926207859084,
+      "ParamEyeBallY": 0.22497566339028868,
+      "ParamMouthOpenY": 0.5298133329356934
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204733,
+    "max_alpha_delta": 239,
+    "rgba_sha256": "25b0f84c8b9290585cdfd0dbf97245205dc53feb77caeeb5b57a74ffbf662529"
+  },
+  {
+    "frame": 36,
+    "time": 1.2,
+    "parameters": {
+      "ParamAngleX": 11.412678195541842,
+      "ParamAngleY": 1.7633557568774196,
+      "ParamBreath": 0.9045084971874737,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9510565162951535,
+      "ParamEyeBallY": 0.20572483830236563,
+      "ParamMouthOpenY": 0.5427050983124843
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204699,
+    "max_alpha_delta": 180,
+    "rgba_sha256": "e546da937eb66b4b7e5c5512367e765b722c7886cb63bc8c07c7387dc3b539b9"
+  },
+  {
+    "frame": 37,
+    "time": 1.2333333333333334,
+    "parameters": {
+      "ParamAngleX": 11.535140351259827,
+      "ParamAngleY": 1.5897577926996147,
+      "ParamBreath": 0.9240240480782129,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9612616959383189,
+      "ParamEyeBallY": 0.1854717424816217,
+      "ParamMouthOpenY": 0.5544144288469277
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204706,
+    "max_alpha_delta": 177,
+    "rgba_sha256": "f2d1f5f4da059e1edd00dc0164705a45ec2336d633f8724174b74b8454a2d4ab"
+  },
+  {
+    "frame": 38,
+    "time": 1.2666666666666666,
+    "parameters": {
+      "ParamAngleX": 11.643548715311958,
+      "ParamAngleY": 1.4084146883576731,
+      "ParamBreath": 0.9414737964294634,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9702957262759965,
+      "ParamEyeBallY": 0.16431504697506186,
+      "ParamMouthOpenY": 0.564884277857678
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204711,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "5b9c0c6df2e25af975a882b746c6a46822bb916429079fcbf90b0b239c2a2a98"
+  },
+  {
+    "frame": 39,
+    "time": 1.3,
+    "parameters": {
+      "ParamAngleX": 11.737771208805666,
+      "ParamAngleY": 1.2202099292274013,
+      "ParamBreath": 0.9567727288213004,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9781476007338056,
+      "ParamEyeBallY": 0.14235782507653014,
+      "ParamMouthOpenY": 0.5740636372927802
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204717,
+    "max_alpha_delta": 218,
+    "rgba_sha256": "76e6147c6b988c492c7cfc894a395690f5d1dbcd612f23b22e4a57974d9e2206"
+  },
+  {
+    "frame": 40,
+    "time": 1.3333333333333333,
+    "parameters": {
+      "ParamAngleX": 11.817693036146496,
+      "ParamAngleY": 1.0260604299770066,
+      "ParamBreath": 0.9698463103929542,
+      "ParamEyeLOpen": 0.9259259259259264,
+      "ParamEyeROpen": 0.9259259259259264,
+      "ParamEyeBallX": 0.984807753012208,
+      "ParamEyeBallY": 0.1197070501639841,
+      "ParamMouthOpenY": 0.5819077862357726
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204718,
+    "max_alpha_delta": 183,
+    "rgba_sha256": "e3964ab650215750ddddc1cecca28c5b16278462b00134c41e3d5fe8cd092621"
+  },
+  {
+    "frame": 41,
+    "time": 1.3666666666666667,
+    "parameters": {
+      "ParamAngleX": 11.883216824898845,
+      "ParamAngleY": 0.8269120674509977,
+      "ParamBreath": 0.9806308479691594,
+      "ParamEyeLOpen": 0.7407407407407406,
+      "ParamEyeROpen": 0.7407407407407406,
+      "ParamEyeBallX": 0.9902680687415704,
+      "ParamEyeBallY": 0.09647307453594972,
+      "ParamMouthOpenY": 0.5883785087814957
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204711,
+    "max_alpha_delta": 159,
+    "rgba_sha256": "18e64026ef562b75cd25af94ba03ddac6c03249447f1c236de7125537502d8af"
+  },
+  {
+    "frame": 42,
+    "time": 1.4,
+    "parameters": {
+      "ParamAngleX": 11.934262744419279,
+      "ParamAngleY": 0.623735072453278,
+      "ParamBreath": 0.9890738003669028,
+      "ParamEyeLOpen": 0.555555555555556,
+      "ParamEyeROpen": 0.555555555555556,
+      "ParamEyeBallX": 0.9945218953682733,
+      "ParamEyeBallY": 0.07276909178621575,
+      "ParamMouthOpenY": 0.5934442802201417
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204690,
+    "max_alpha_delta": 179,
+    "rgba_sha256": "83d18e1fa610f21ae7ff145dcc4c68ed87a164bab88a367636ff805508c90ac3"
+  },
+  {
+    "frame": 43,
+    "time": 1.4333333333333333,
+    "parameters": {
+      "ParamAngleX": 11.97076860311789,
+      "ParamAngleY": 0.41751930288019723,
+      "ParamBreath": 0.9951340343707851,
+      "ParamEyeLOpen": 0.37037037037037024,
+      "ParamEyeROpen": 0.37037037037037024,
+      "ParamEyeBallX": 0.9975640502598242,
+      "ParamEyeBallY": 0.04871058533602301,
+      "ParamMouthOpenY": 0.597080420622471
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204672,
+    "max_alpha_delta": 205,
+    "rgba_sha256": "f86c87c43a39bb86d143b06da2326ad51b06c1ebb870b881c9a4f783b6de479d"
+  },
+  {
+    "frame": 44,
+    "time": 1.4666666666666666,
+    "parameters": {
+      "ParamAngleX": 11.992689924229149,
+      "ParamAngleY": 0.2092694212323779,
+      "ParamBreath": 0.9987820251299121,
+      "ParamEyeLOpen": 0.18518518518518579,
+      "ParamEyeROpen": 0.18518518518518579,
+      "ParamEyeBallX": 0.9993908270190958,
+      "ParamEyeBallY": 0.02441476581044409,
+      "ParamMouthOpenY": 0.5992692150779473
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204675,
+    "max_alpha_delta": 194,
+    "rgba_sha256": "402f038f54c9315cce57bd4481fc000e26e700a1dc99ab58822f45d6e8ce770c"
+  },
+  {
+    "frame": 45,
+    "time": 1.5,
+    "parameters": {
+      "ParamAngleX": 12.0,
+      "ParamAngleY": 3.6739403974420594e-16,
+      "ParamBreath": 1.0,
+      "ParamEyeLOpen": 0.0,
+      "ParamEyeROpen": 0.0,
+      "ParamEyeBallX": 1.0,
+      "ParamEyeBallY": 4.286263797015736e-17,
+      "ParamMouthOpenY": 0.6
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204632,
+    "max_alpha_delta": 237,
+    "rgba_sha256": "cbadf90f754faa80c899f59ea2e00e048a3ab00b692b927dbce9a4aee33e14ff"
+  },
+  {
+    "frame": 46,
+    "time": 1.5333333333333334,
+    "parameters": {
+      "ParamAngleX": 11.992689924229149,
+      "ParamAngleY": -0.20926942123237716,
+      "ParamBreath": 0.9987820251299121,
+      "ParamEyeLOpen": 0.18518518518518579,
+      "ParamEyeROpen": 0.18518518518518579,
+      "ParamEyeBallX": 0.9993908270190958,
+      "ParamEyeBallY": -0.024414765810444,
+      "ParamMouthOpenY": 0.5992692150779473
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204598,
+    "max_alpha_delta": 241,
+    "rgba_sha256": "4f169ce0a6aff4b0ca32fa3a4b966592b92487f507b2f4ee95d11a1c0b7c5291"
+  },
+  {
+    "frame": 47,
+    "time": 1.5666666666666667,
+    "parameters": {
+      "ParamAngleX": 11.97076860311789,
+      "ParamAngleY": -0.41751930288019656,
+      "ParamBreath": 0.9951340343707851,
+      "ParamEyeLOpen": 0.37037037037037024,
+      "ParamEyeROpen": 0.37037037037037024,
+      "ParamEyeBallX": 0.9975640502598242,
+      "ParamEyeBallY": -0.04871058533602293,
+      "ParamMouthOpenY": 0.597080420622471
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204569,
+    "max_alpha_delta": 221,
+    "rgba_sha256": "ab9429e842a3468ae588510e2e136b266b1869a4c4869d1fdaf1564c403fa592"
+  },
+  {
+    "frame": 48,
+    "time": 1.6,
+    "parameters": {
+      "ParamAngleX": 11.93426274441928,
+      "ParamAngleY": -0.6237350724532772,
+      "ParamBreath": 0.9890738003669028,
+      "ParamEyeLOpen": 0.555555555555556,
+      "ParamEyeROpen": 0.555555555555556,
+      "ParamEyeBallX": 0.9945218953682734,
+      "ParamEyeBallY": -0.07276909178621567,
+      "ParamMouthOpenY": 0.5934442802201417
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204552,
+    "max_alpha_delta": 183,
+    "rgba_sha256": "b5f3283521ebfd2f49a80f4143962e4c48ff244272620a94e055a1c98f520791"
+  },
+  {
+    "frame": 49,
+    "time": 1.6333333333333333,
+    "parameters": {
+      "ParamAngleX": 11.883216824898845,
+      "ParamAngleY": -0.826912067450997,
+      "ParamBreath": 0.9806308479691594,
+      "ParamEyeLOpen": 0.7407407407407406,
+      "ParamEyeROpen": 0.7407407407407406,
+      "ParamEyeBallX": 0.9902680687415704,
+      "ParamEyeBallY": -0.09647307453594964,
+      "ParamMouthOpenY": 0.5883785087814957
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204538,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "369e4dfa3f348e3c108dfb650245b428a6d1bb1ba5c3b99e1652da1ed1c4ddb7"
+  },
+  {
+    "frame": 50,
+    "time": 1.6666666666666667,
+    "parameters": {
+      "ParamAngleX": 11.817693036146496,
+      "ParamAngleY": -1.026060429977006,
+      "ParamBreath": 0.9698463103929542,
+      "ParamEyeLOpen": 0.9259259259259264,
+      "ParamEyeROpen": 0.9259259259259264,
+      "ParamEyeBallX": 0.984807753012208,
+      "ParamEyeBallY": -0.11970705016398402,
+      "ParamMouthOpenY": 0.5819077862357726
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204500,
+    "max_alpha_delta": 208,
+    "rgba_sha256": "bf8abac461a5e60d301a330e714515e50c4bc08d234bc53a8ac9cbe5deebffa2"
+  },
+  {
+    "frame": 51,
+    "time": 1.7,
+    "parameters": {
+      "ParamAngleX": 11.737771208805668,
+      "ParamAngleY": -1.2202099292274007,
+      "ParamBreath": 0.9567727288213004,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9781476007338057,
+      "ParamEyeBallY": -0.14235782507653005,
+      "ParamMouthOpenY": 0.5740636372927802
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204461,
+    "max_alpha_delta": 220,
+    "rgba_sha256": "d9861a7a24d6faf10551227fcce3c25e5f5685c96e110248efd4d45b98e42cf2"
+  },
+  {
+    "frame": 52,
+    "time": 1.7333333333333334,
+    "parameters": {
+      "ParamAngleX": 11.643548715311958,
+      "ParamAngleY": -1.4084146883576727,
+      "ParamBreath": 0.9414737964294635,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9702957262759965,
+      "ParamEyeBallY": -0.1643150469750618,
+      "ParamMouthOpenY": 0.564884277857678
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204444,
+    "max_alpha_delta": 246,
+    "rgba_sha256": "dc0cfbc60e9ab13fc2f43b8ef11f979b8c32c853bd35ec4f1d093209f167bdb8"
+  },
+  {
+    "frame": 53,
+    "time": 1.7666666666666666,
+    "parameters": {
+      "ParamAngleX": 11.535140351259829,
+      "ParamAngleY": -1.5897577926996131,
+      "ParamBreath": 0.9240240480782131,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.961261695938319,
+      "ParamEyeBallY": -0.18547174248162152,
+      "ParamMouthOpenY": 0.5544144288469278
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204408,
+    "max_alpha_delta": 190,
+    "rgba_sha256": "4fc702742ed9b0e59739ee635de85e2c9cb0538bfd960db790e36fb20bf308ae"
+  },
+  {
+    "frame": 54,
+    "time": 1.8,
+    "parameters": {
+      "ParamAngleX": 11.412678195541844,
+      "ParamAngleY": -1.7633557568774192,
+      "ParamBreath": 0.9045084971874737,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9510565162951536,
+      "ParamEyeBallY": -0.20572483830236554,
+      "ParamMouthOpenY": 0.5427050983124843
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204380,
+    "max_alpha_delta": 208,
+    "rgba_sha256": "7d24a16b00375196b684034a2798d3bf981a1a5d7d083910b19ec86ad3b6bcaf"
+  },
+  {
+    "frame": 55,
+    "time": 1.8333333333333333,
+    "parameters": {
+      "ParamAngleX": 11.276311449430901,
+      "ParamAngleY": -1.9283628290596169,
+      "ParamBreath": 0.8830222215594892,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9396926207859084,
+      "ParamEyeBallY": -0.2249756633902886,
+      "ParamMouthOpenY": 0.5298133329356934
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204357,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "b65db3885f5214e163426df4635224451a19e2f249d6ec9abf80c6fd31d052e9"
+  },
+  {
+    "frame": 56,
+    "time": 1.8666666666666667,
+    "parameters": {
+      "ParamAngleX": 11.126206254801449,
+      "ParamAngleY": -2.0839751113769918,
+      "ParamBreath": 0.8596699001693255,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.9271838545667874,
+      "ParamEyeBallY": -0.24313042966064902,
+      "ParamMouthOpenY": 0.5158019401015953
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204330,
+    "max_alpha_delta": 217,
+    "rgba_sha256": "f00d5a52b2e6827b080f5f219b4707e1e5ea3739aabb98dc9e7c79bdbc94550f"
+  },
+  {
+    "frame": 57,
+    "time": 1.9,
+    "parameters": {
+      "ParamAngleX": 10.96254549171121,
+      "ParamAngleY": -2.229434476432182,
+      "ParamBreath": 0.8345653031794292,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.913545457642601,
+      "ParamEyeBallY": -0.2601006889170879,
+      "ParamMouthOpenY": 0.5007391819076575
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204282,
+    "max_alpha_delta": 230,
+    "rgba_sha256": "4ba7916e45e8897924a4d8417dfe7704a36187f9d5ec2a031fb8fb72d3252b8d"
+  },
+  {
+    "frame": 58,
+    "time": 1.9333333333333333,
+    "parameters": {
+      "ParamAngleX": 10.785528555590005,
+      "ParamAngleY": -2.3640322608201645,
+      "ParamBreath": 0.8078307376628294,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8987940462991671,
+      "ParamEyeBallY": -0.27580376376235255,
+      "ParamMouthOpenY": 0.4846984425976976
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204229,
+    "max_alpha_delta": 245,
+    "rgba_sha256": "f4403c1515e77a168d2de583509230a594b1fa8c4ed66d8c3af9ee99cf4907a1"
+  },
+  {
+    "frame": 59,
+    "time": 1.9666666666666666,
+    "parameters": {
+      "ParamAngleX": 10.595371114307126,
+      "ParamAngleY": -2.4871127176651244,
+      "ParamBreath": 0.7795964517353736,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8829475928589271,
+      "ParamEyeBallY": -0.2901631503942645,
+      "ParamMouthOpenY": 0.4677578710412241
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204212,
+    "max_alpha_delta": 194,
+    "rgba_sha256": "9e53413b870b353a406895f5fdcf6d0810a4db150cc99ebe3b8562b1aab37cbb"
+  },
+  {
+    "frame": 60,
+    "time": 2.0,
+    "parameters": {
+      "ParamAngleX": 10.392304845413264,
+      "ParamAngleY": -2.5980762113533156,
+      "ParamBreath": 0.7500000000000002,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8660254037844387,
+      "ParamEyeBallY": -0.30310889132455343,
+      "ParamMouthOpenY": 0.4500000000000001
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204176,
+    "max_alpha_delta": 183,
+    "rgba_sha256": "1c6049800adcb3ff4f1e769adc055b9975aef80d4ef9291131ffef06955b189e"
+  },
+  {
+    "frame": 61,
+    "time": 2.033333333333333,
+    "parameters": {
+      "ParamAngleX": 10.176577153877112,
+      "ParamAngleY": -2.6963821388975004,
+      "ParamBreath": 0.7191855733945389,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8480480961564261,
+      "ParamEyeBallY": -0.3145779162047084,
+      "ParamMouthOpenY": 0.43151134403672337
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204127,
+    "max_alpha_delta": 212,
+    "rgba_sha256": "7617064bfb5f11107299cefe64a6bcaed0f72fad87e970a780fd56867f04a75c"
+  },
+  {
+    "frame": 62,
+    "time": 2.066666666666667,
+    "parameters": {
+      "ParamAngleX": 9.948450870660501,
+      "ParamAngleY": -2.781551563700362,
+      "ParamBreath": 0.6873032967079562,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8290375725550417,
+      "ParamEyeBallY": -0.32451434909837557,
+      "ParamMouthOpenY": 0.4123819780247737
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204102,
+    "max_alpha_delta": 238,
+    "rgba_sha256": "479ac1658252411f381349fe5245d2695c13774de64990b259f99e8beb844de7"
+  },
+  {
+    "frame": 63,
+    "time": 2.1,
+    "parameters": {
+      "ParamAngleX": 9.70820393249937,
+      "ParamAngleY": -2.8531695488854605,
+      "ParamBreath": 0.6545084971874737,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.8090169943749475,
+      "ParamEyeBallY": -0.3328697807033037,
+      "ParamMouthOpenY": 0.39270509831248424
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204085,
+    "max_alpha_delta": 239,
+    "rgba_sha256": "30b6c88d810b56b4a03186762cd5e06115be7448948250d849e48ae4a1a4618f"
+  },
+  {
+    "frame": 64,
+    "time": 2.1333333333333333,
+    "parameters": {
+      "ParamAngleX": 9.456129043280665,
+      "ParamAngleY": -2.9108871788279895,
+      "ParamBreath": 0.6209609477998339,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.788010753606722,
+      "ParamEyeBallY": -0.33960350419659874,
+      "ParamMouthOpenY": 0.37257656867990036
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204034,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "5d5d2895c0f6f5ef059d3e78dfcedbd349860e10052befc4277f5fe01b2debea"
+  },
+  {
+    "frame": 65,
+    "time": 2.1666666666666665,
+    "parameters": {
+      "ParamAngleX": 9.19253331742774,
+      "ParamAngleY": -2.9544232590366235,
+      "ParamBreath": 0.5868240888334656,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.7660444431189783,
+      "ParamEyeBallY": -0.34468271355427277,
+      "ParamMouthOpenY": 0.3520944533000793
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204029,
+    "max_alpha_delta": 191,
+    "rgba_sha256": "8062d36f8f2f4afc8a825b82353c07482a0bd5af10455047d0c7f0bf37cadbb1"
+  },
+  {
+    "frame": 66,
+    "time": 2.2,
+    "parameters": {
+      "ParamAngleX": 8.917737905728732,
+      "ParamAngleY": -2.98356568610482,
+      "ParamBreath": 0.5522642316338267,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.7431448254773942,
+      "ParamEyeBallY": -0.34808266337889565,
+      "ParamMouthOpenY": 0.331358538980296
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204001,
+    "max_alpha_delta": 229,
+    "rgba_sha256": "2f3f49c9ad092eff97be375ec32cac9de6d44ce4bc13a74cddc613a947750a4e"
+  },
+  {
+    "frame": 67,
+    "time": 2.2333333333333334,
+    "parameters": {
+      "ParamAngleX": 8.632077604063813,
+      "ParamAngleY": -2.998172481057287,
+      "ParamBreath": 0.5174497483512503,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.7193398003386511,
+      "ParamEyeBallY": -0.3497867894566835,
+      "ParamMouthOpenY": 0.3104698490107502
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203982,
+    "max_alpha_delta": 220,
+    "rgba_sha256": "b97b9f7a6581fc5f67250c62d571f3dda235e7fc52724f4d769065d223973342"
+  },
+  {
+    "frame": 68,
+    "time": 2.2666666666666666,
+    "parameters": {
+      "ParamAngleX": 8.33590044550797,
+      "ParamAngleY": -2.998172481057287,
+      "ParamBreath": 0.4825502516487498,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6946583704589975,
+      "ParamEyeBallY": -0.3497867894566835,
+      "ParamMouthOpenY": 0.2895301509892499
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203970,
+    "max_alpha_delta": 196,
+    "rgba_sha256": "d89a419bdf31261bea926371a1094aacaf6ea7af71a80029b7d245fa9f725bd1"
+  },
+  {
+    "frame": 69,
+    "time": 2.3,
+    "parameters": {
+      "ParamAngleX": 8.0295672763063,
+      "ParamAngleY": -2.98356568610482,
+      "ParamBreath": 0.4477357683661735,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6691306063588583,
+      "ParamEyeBallY": -0.34808266337889565,
+      "ParamMouthOpenY": 0.2686414610197041
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203949,
+    "max_alpha_delta": 193,
+    "rgba_sha256": "e03b9ce2435c2f15ebb67d3b9d9352f17f3b52adca06eea5fd5755c5392fc89a"
+  },
+  {
+    "frame": 70,
+    "time": 2.3333333333333335,
+    "parameters": {
+      "ParamAngleX": 7.713451316238469,
+      "ParamAngleY": -2.954423259036624,
+      "ParamBreath": 0.41317591116653457,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6427876096865391,
+      "ParamEyeBallY": -0.34468271355427277,
+      "ParamMouthOpenY": 0.24790554669992074
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203938,
+    "max_alpha_delta": 231,
+    "rgba_sha256": "2d95989b5c45293bf30d3a6ca9071ccc5816a9ca36590426cccbd976b6278864"
+  },
+  {
+    "frame": 71,
+    "time": 2.3666666666666667,
+    "parameters": {
+      "ParamAngleX": 7.387937703907901,
+      "ParamAngleY": -2.9108871788279895,
+      "ParamBreath": 0.3790390522001663,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.6156614753256584,
+      "ParamEyeBallY": -0.3396035041965988,
+      "ParamMouthOpenY": 0.2274234313200998
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203894,
+    "max_alpha_delta": 239,
+    "rgba_sha256": "8ca526f63715d192b692af32c42cabcac595dd0a2549c153af0e979a66d55efb"
+  },
+  {
+    "frame": 72,
+    "time": 2.4,
+    "parameters": {
+      "ParamAngleX": 7.0534230275096785,
+      "ParamAngleY": -2.853169548885461,
+      "ParamBreath": 0.3454915028125264,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5877852522924732,
+      "ParamEyeBallY": -0.33286978070330375,
+      "ParamMouthOpenY": 0.20729490168751583
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203868,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "660e3d85e4492658bc06667c4f43a10f4927ef18661aca66b25f7a58eed2408f"
+  },
+  {
+    "frame": 73,
+    "time": 2.433333333333333,
+    "parameters": {
+      "ParamAngleX": 6.710314841648962,
+      "ParamAngleY": -2.7815515637003623,
+      "ParamBreath": 0.312696703292044,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5591929034707469,
+      "ParamEyeBallY": -0.32451434909837557,
+      "ParamMouthOpenY": 0.1876180219752264
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203841,
+    "max_alpha_delta": 187,
+    "rgba_sha256": "dbbfe02f3a808f706c96d5aacaf7ed0fb39215290bb028071bd06994d72f6177"
+  },
+  {
+    "frame": 74,
+    "time": 2.466666666666667,
+    "parameters": {
+      "ParamAngleX": 6.359031170798459,
+      "ParamAngleY": -2.6963821388975013,
+      "ParamBreath": 0.2808144266054613,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.5299192642332049,
+      "ParamEyeBallY": -0.31457791620470843,
+      "ParamMouthOpenY": 0.16848865596327678
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203803,
+    "max_alpha_delta": 217,
+    "rgba_sha256": "921d7d02d16961fda18bbf9c7e5dfe8002ab8e1e6173b9d99dd5ea08bd9f183a"
+  },
+  {
+    "frame": 75,
+    "time": 2.5,
+    "parameters": {
+      "ParamAngleX": 5.999999999999999,
+      "ParamAngleY": -2.598076211353316,
+      "ParamBreath": 0.24999999999999994,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.49999999999999994,
+      "ParamEyeBallY": -0.3031088913245535,
+      "ParamMouthOpenY": 0.14999999999999997
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203804,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "cb76f83f2017360894f1d236689eec7a04ec60ea21df0c099afa65fda525282b"
+  },
+  {
+    "frame": 76,
+    "time": 2.533333333333333,
+    "parameters": {
+      "ParamAngleX": 5.633658753430693,
+      "ParamAngleY": -2.487112717665126,
+      "ParamBreath": 0.22040354826462688,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.4694715627858911,
+      "ParamEyeBallY": -0.2901631503942647,
+      "ParamMouthOpenY": 0.13224212895877613
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203793,
+    "max_alpha_delta": 181,
+    "rgba_sha256": "e3bbba4244b214d7119f39c6cd7bab6eb673c67f995ff6e682cb6be81672996a"
+  },
+  {
+    "frame": 77,
+    "time": 2.566666666666667,
+    "parameters": {
+      "ParamAngleX": 5.260453761468927,
+      "ParamAngleY": -2.3640322608201654,
+      "ParamBreath": 0.19216926233717074,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.4383711467890773,
+      "ParamEyeBallY": -0.2758037637623526,
+      "ParamMouthOpenY": 0.11530155740230244
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203798,
+    "max_alpha_delta": 194,
+    "rgba_sha256": "1a8efeed26cd2cc053b7fc0fa34113495a3f8e2bb4036192bc975ba1f9f3a623"
+  },
+  {
+    "frame": 78,
+    "time": 2.6,
+    "parameters": {
+      "ParamAngleX": 4.880839716909605,
+      "ParamAngleY": -2.229434476432184,
+      "ParamBreath": 0.1654346968205711,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.40673664307580043,
+      "ParamEyeBallY": -0.2601006889170881,
+      "ParamMouthOpenY": 0.09926081809234266
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203799,
+    "max_alpha_delta": 200,
+    "rgba_sha256": "6e4926755a36d62c44b3e1e73cbf32db5b4875d3d1d1ff343b9ffe08442e62c9"
+  },
+  {
+    "frame": 79,
+    "time": 2.6333333333333333,
+    "parameters": {
+      "ParamAngleX": 4.495279120990942,
+      "ParamAngleY": -2.083975111376991,
+      "ParamBreath": 0.1403300998306743,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.3746065934159118,
+      "ParamEyeBallY": -0.2431304296606489,
+      "ParamMouthOpenY": 0.08419805989840458
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203764,
+    "max_alpha_delta": 184,
+    "rgba_sha256": "ea8d145a6b489b3d31efcde01dd525229502094f909d2b2ccd6d14b24408da86"
+  },
+  {
+    "frame": 80,
+    "time": 2.6666666666666665,
+    "parameters": {
+      "ParamAngleX": 4.1042417199080266,
+      "ParamAngleY": -1.9283628290596186,
+      "ParamBreath": 0.1169777784405111,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.3420201433256689,
+      "ParamEyeBallY": -0.22497566339028885,
+      "ParamMouthOpenY": 0.07018666706430667
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203786,
+    "max_alpha_delta": 178,
+    "rgba_sha256": "0f358a8ae0f966da64a96544c715ca7b4c8b24a767782175c8984f7b2233ac67"
+  },
+  {
+    "frame": 81,
+    "time": 2.7,
+    "parameters": {
+      "ParamAngleX": 3.7082039324993703,
+      "ParamAngleY": -1.76335575687742,
+      "ParamBreath": 0.09549150281252633,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.3090169943749475,
+      "ParamEyeBallY": -0.20572483830236565,
+      "ParamMouthOpenY": 0.0572949016875158
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203800,
+    "max_alpha_delta": 179,
+    "rgba_sha256": "4564b97b1245b3077a49e220f70eead5b08805251434aa0f682846979376dc9a"
+  },
+  {
+    "frame": 82,
+    "time": 2.7333333333333334,
+    "parameters": {
+      "ParamAngleX": 3.3076482698039906,
+      "ParamAngleY": -1.589757792699615,
+      "ParamBreath": 0.07597595192178708,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.2756373558169992,
+      "ParamEyeBallY": -0.18547174248162174,
+      "ParamMouthOpenY": 0.04558557115307225
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203805,
+    "max_alpha_delta": 214,
+    "rgba_sha256": "4859ef2d368afdfb8453ed32d2dfc4302b8bfb7663c03f870762cba19a6ee376"
+  },
+  {
+    "frame": 83,
+    "time": 2.7666666666666666,
+    "parameters": {
+      "ParamAngleX": 2.903062747196018,
+      "ParamAngleY": -1.4084146883576747,
+      "ParamBreath": 0.05852620357053673,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.24192189559966817,
+      "ParamEyeBallY": -0.16431504697506205,
+      "ParamMouthOpenY": 0.03511572214232204
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203816,
+    "max_alpha_delta": 207,
+    "rgba_sha256": "c5f10bc8ae0dc89f3e69e2abfd4f75098dc94201aca75fab9ce5510f17988c85"
+  },
+  {
+    "frame": 84,
+    "time": 2.8,
+    "parameters": {
+      "ParamAngleX": 2.494940289813112,
+      "ParamAngleY": -1.2202099292274005,
+      "ParamBreath": 0.04322727117869951,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.20791169081775931,
+      "ParamEyeBallY": -0.14235782507653005,
+      "ParamMouthOpenY": 0.025936362707219707
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203829,
+    "max_alpha_delta": 235,
+    "rgba_sha256": "2d191c8d81e8398c091ae66d4fe2897ef84f5e43cf06fa070f88cbc3a93ee608"
+  },
+  {
+    "frame": 85,
+    "time": 2.8333333333333335,
+    "parameters": {
+      "ParamAngleX": 2.083778132003163,
+      "ParamAngleY": -1.0260604299770058,
+      "ParamBreath": 0.030153689607045786,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.17364817766693028,
+      "ParamEyeBallY": -0.119707050163984,
+      "ParamMouthOpenY": 0.018092213764227472
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203860,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "cf99f85e8fb7545575219f82115c84c3a87501de3073d030732cf8b365a99e6b"
+  },
+  {
+    "frame": 86,
+    "time": 2.8666666666666667,
+    "parameters": {
+      "ParamAngleX": 1.670077211520789,
+      "ParamAngleY": -0.8269120674509993,
+      "ParamBreath": 0.019369152030840664,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.13917310096006574,
+      "ParamEyeBallY": -0.09647307453594992,
+      "ParamMouthOpenY": 0.011621491218504398
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203908,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "a5dfb4a6f7c5dc1532df2725c44e0e0bb1871a85102f2451201e438280128e4c"
+  },
+  {
+    "frame": 87,
+    "time": 2.9,
+    "parameters": {
+      "ParamAngleX": 1.2543415592118448,
+      "ParamAngleY": -0.6237350724532796,
+      "ParamBreath": 0.010926199633097211,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.10452846326765373,
+      "ParamEyeBallY": -0.07276909178621595,
+      "ParamMouthOpenY": 0.006555719779858326
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203926,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "0ae3ed6e387d58c554631572a06a99d6e9272022dccbc118e07e412e5e2444a2"
+  },
+  {
+    "frame": 88,
+    "time": 2.933333333333333,
+    "parameters": {
+      "ParamAngleX": 0.8370776849295116,
+      "ParamAngleY": -0.4175193028802002,
+      "ParamBreath": 0.00486596562921493,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.06975647374412597,
+      "ParamEyeBallY": -0.048710585336023356,
+      "ParamMouthOpenY": 0.002919579377528958
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203948,
+    "max_alpha_delta": 218,
+    "rgba_sha256": "23fd5f626fc9a2b721139b69ff219e4a49bb52de67df36e704b58f6504e9fea8"
+  },
+  {
+    "frame": 89,
+    "time": 2.966666666666667,
+    "parameters": {
+      "ParamAngleX": 0.4187939604300084,
+      "ParamAngleY": -0.2092694212323743,
+      "ParamBreath": 0.0012179748700878457,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 0.0348994967025007,
+      "ParamEyeBallY": -0.024414765810443665,
+      "ParamMouthOpenY": 0.0007307849220527074
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203982,
+    "max_alpha_delta": 157,
+    "rgba_sha256": "bc48156ce5011d8637e5f6d6d4d8722c7cf7010ab198525bf0084a13b1749c9f"
+  },
+  {
+    "frame": 90,
+    "time": 3.0,
+    "parameters": {
+      "ParamAngleX": 1.4695761589768238e-15,
+      "ParamAngleY": -7.347880794884119e-16,
+      "ParamBreath": 0.0,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": 1.2246467991473532e-16,
+      "ParamEyeBallY": -8.572527594031472e-17,
+      "ParamMouthOpenY": 0.0
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204002,
+    "max_alpha_delta": 233,
+    "rgba_sha256": "194f2942902afafe2253ff9472c4679c67f4d34f82fbf8ee08cd5f4ae530d69a"
+  },
+  {
+    "frame": 91,
+    "time": 3.033333333333333,
+    "parameters": {
+      "ParamAngleX": -0.4187939604300055,
+      "ParamAngleY": 0.2092694212323728,
+      "ParamBreath": 0.0012179748700878457,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.034899496702500456,
+      "ParamEyeBallY": 0.02441476581044349,
+      "ParamMouthOpenY": 0.0007307849220527074
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204026,
+    "max_alpha_delta": 172,
+    "rgba_sha256": "f5763cf744b14c88da863a912eac71e156f6ff41e9866a7c8f770ffca9621d0f"
+  },
+  {
+    "frame": 92,
+    "time": 3.066666666666667,
+    "parameters": {
+      "ParamAngleX": -0.8370776849295086,
+      "ParamAngleY": 0.4175193028801988,
+      "ParamBreath": 0.0048659656292148745,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.06975647374412572,
+      "ParamEyeBallY": 0.04871058533602319,
+      "ParamMouthOpenY": 0.0029195793775289246
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204049,
+    "max_alpha_delta": 149,
+    "rgba_sha256": "67240b4bdbc630709dd2e2460c936ab58dd8cb0917695281bbd21f547330e425"
+  },
+  {
+    "frame": 93,
+    "time": 3.1,
+    "parameters": {
+      "ParamAngleX": -1.2543415592118419,
+      "ParamAngleY": 0.6237350724532781,
+      "ParamBreath": 0.010926199633097211,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.1045284632676535,
+      "ParamEyeBallY": 0.07276909178621578,
+      "ParamMouthOpenY": 0.006555719779858326
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204075,
+    "max_alpha_delta": 191,
+    "rgba_sha256": "de2b0079ad4d0dde7636aad2426077397532a94f63827ddb25b62488be5b47b2"
+  },
+  {
+    "frame": 94,
+    "time": 3.1333333333333333,
+    "parameters": {
+      "ParamAngleX": -1.6700772115207863,
+      "ParamAngleY": 0.826912067450998,
+      "ParamBreath": 0.01936915203084061,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.13917310096006552,
+      "ParamEyeBallY": 0.09647307453594976,
+      "ParamMouthOpenY": 0.011621491218504365
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204089,
+    "max_alpha_delta": 240,
+    "rgba_sha256": "8619994d713d2d33649eafa7fb775100cf6ff5cc7c085dd1feb8e348457cf6ee"
+  },
+  {
+    "frame": 95,
+    "time": 3.1666666666666665,
+    "parameters": {
+      "ParamAngleX": -2.08377813200316,
+      "ParamAngleY": 1.0260604299770044,
+      "ParamBreath": 0.030153689607045675,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.17364817766693003,
+      "ParamEyeBallY": 0.11970705016398382,
+      "ParamMouthOpenY": 0.018092213764227403
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204120,
+    "max_alpha_delta": 191,
+    "rgba_sha256": "d604f60f4089eb7f56e5bc39980d815e1f486f3f844f5ccb225c8984fe81cba4"
+  },
+  {
+    "frame": 96,
+    "time": 3.2,
+    "parameters": {
+      "ParamAngleX": -2.494940289813109,
+      "ParamAngleY": 1.2202099292273991,
+      "ParamBreath": 0.043227271178699456,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.20791169081775907,
+      "ParamEyeBallY": 0.1423578250765299,
+      "ParamMouthOpenY": 0.025936362707219673
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204143,
+    "max_alpha_delta": 223,
+    "rgba_sha256": "ba774aac5fffaa70f59e124346452c0e742d5391f5223291e1be15d13a86f787"
+  },
+  {
+    "frame": 97,
+    "time": 3.2333333333333334,
+    "parameters": {
+      "ParamAngleX": -2.903062747196015,
+      "ParamAngleY": 1.4084146883576734,
+      "ParamBreath": 0.05852620357053662,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.24192189559966792,
+      "ParamEyeBallY": 0.16431504697506188,
+      "ParamMouthOpenY": 0.03511572214232197
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204186,
+    "max_alpha_delta": 203,
+    "rgba_sha256": "56364b6b7aa6a91c56e87a43f3cfa36a14278bb070065dc0b82b0f9ef362db6b"
+  },
+  {
+    "frame": 98,
+    "time": 3.2666666666666666,
+    "parameters": {
+      "ParamAngleX": -3.307648269803988,
+      "ParamAngleY": 1.589757792699614,
+      "ParamBreath": 0.07597595192178691,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.275637355816999,
+      "ParamEyeBallY": 0.18547174248162163,
+      "ParamMouthOpenY": 0.045585571153072144
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204258,
+    "max_alpha_delta": 205,
+    "rgba_sha256": "5dc36f03a3649fc4f8dd1f592aa3ebbd8453e8a5c2671093951d405ed6d2481d"
+  },
+  {
+    "frame": 99,
+    "time": 3.3,
+    "parameters": {
+      "ParamAngleX": -3.7082039324993676,
+      "ParamAngleY": 1.7633557568774187,
+      "ParamBreath": 0.09549150281252622,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.3090169943749473,
+      "ParamEyeBallY": 0.20572483830236551,
+      "ParamMouthOpenY": 0.05729490168751573
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204291,
+    "max_alpha_delta": 177,
+    "rgba_sha256": "32c9ebed7718ec2ace9706184d0f8de168fe3450930b234aa8380b03ad4e6ef7"
+  },
+  {
+    "frame": 100,
+    "time": 3.3333333333333335,
+    "parameters": {
+      "ParamAngleX": -4.104241719908024,
+      "ParamAngleY": 1.9283628290596178,
+      "ParamBreath": 0.11697777844051094,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.34202014332566866,
+      "ParamEyeBallY": 0.2249756633902887,
+      "ParamMouthOpenY": 0.07018666706430655
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204310,
+    "max_alpha_delta": 240,
+    "rgba_sha256": "893d0ac751d15b26d856e64132fd8cbc6bedc718945aba6679afe25a6a41c452"
+  },
+  {
+    "frame": 101,
+    "time": 3.3666666666666667,
+    "parameters": {
+      "ParamAngleX": -4.495279120990939,
+      "ParamAngleY": 2.08397511137699,
+      "ParamBreath": 0.14033009983067407,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.37460659341591157,
+      "ParamEyeBallY": 0.2431304296606488,
+      "ParamMouthOpenY": 0.08419805989840444
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204340,
+    "max_alpha_delta": 193,
+    "rgba_sha256": "21293dff409076b5a468590870f540d82e0efda0dfcd472c4d15e68e15c9d4d6"
+  },
+  {
+    "frame": 102,
+    "time": 3.4,
+    "parameters": {
+      "ParamAngleX": -4.880839716909603,
+      "ParamAngleY": 2.229434476432183,
+      "ParamBreath": 0.16543469682057088,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.4067366430758002,
+      "ParamEyeBallY": 0.260100688917088,
+      "ParamMouthOpenY": 0.09926081809234252
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204378,
+    "max_alpha_delta": 194,
+    "rgba_sha256": "d6bb7cab070a4c5dfd2ad864063852746650c52427af69be782c08aa6616614a"
+  },
+  {
+    "frame": 103,
+    "time": 3.433333333333333,
+    "parameters": {
+      "ParamAngleX": -5.260453761468925,
+      "ParamAngleY": 2.3640322608201645,
+      "ParamBreath": 0.19216926233717058,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.43837114678907707,
+      "ParamEyeBallY": 0.2758037637623525,
+      "ParamMouthOpenY": 0.11530155740230234
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204416,
+    "max_alpha_delta": 197,
+    "rgba_sha256": "372b555ca568903981244bfad429b56a70ab087cfdb041ae00cd6f80bc421ed5"
+  },
+  {
+    "frame": 104,
+    "time": 3.466666666666667,
+    "parameters": {
+      "ParamAngleX": -5.633658753430691,
+      "ParamAngleY": 2.4871127176651253,
+      "ParamBreath": 0.22040354826462666,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.46947156278589086,
+      "ParamEyeBallY": 0.2901631503942646,
+      "ParamMouthOpenY": 0.132242128958776
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204438,
+    "max_alpha_delta": 180,
+    "rgba_sha256": "4ee2b231cf597f87ddbf09bc5e5f4587fb65963a6c7878e89c709402ef492648"
+  },
+  {
+    "frame": 105,
+    "time": 3.5,
+    "parameters": {
+      "ParamAngleX": -5.9999999999999964,
+      "ParamAngleY": 2.598076211353315,
+      "ParamBreath": 0.24999999999999978,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.4999999999999997,
+      "ParamEyeBallY": 0.30310889132455343,
+      "ParamMouthOpenY": 0.14999999999999986
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204444,
+    "max_alpha_delta": 195,
+    "rgba_sha256": "839daff1d6819439a093e2e5731416a72e63a7942674df525abfb6f502d3b3a3"
+  },
+  {
+    "frame": 106,
+    "time": 3.533333333333333,
+    "parameters": {
+      "ParamAngleX": -6.359031170798453,
+      "ParamAngleY": 2.696382138897499,
+      "ParamBreath": 0.2808144266054607,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.5299192642332043,
+      "ParamEyeBallY": 0.3145779162047082,
+      "ParamMouthOpenY": 0.16848865596327642
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204505,
+    "max_alpha_delta": 227,
+    "rgba_sha256": "cad40d969495f38c43a39b0d34a32bcf26437c2ebaae74884c4919d1942fb687"
+  },
+  {
+    "frame": 107,
+    "time": 3.566666666666667,
+    "parameters": {
+      "ParamAngleX": -6.710314841648964,
+      "ParamAngleY": 2.781551563700363,
+      "ParamBreath": 0.31269670329204424,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.559192903470747,
+      "ParamEyeBallY": 0.3245143490983757,
+      "ParamMouthOpenY": 0.18761802197522653
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204531,
+    "max_alpha_delta": 241,
+    "rgba_sha256": "6e036d1a4766a911c6129c91a5252081cf34c4fcd95b224185fe9b13ea0e72a9"
+  },
+  {
+    "frame": 108,
+    "time": 3.6,
+    "parameters": {
+      "ParamAngleX": -7.053423027509677,
+      "ParamAngleY": 2.8531695488854605,
+      "ParamBreath": 0.34549150281252616,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.587785252292473,
+      "ParamEyeBallY": 0.3328697807033037,
+      "ParamMouthOpenY": 0.2072949016875157
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204544,
+    "max_alpha_delta": 200,
+    "rgba_sha256": "7bf732c778d1bd0749e301e2a804f2ca4340d28828f721fd22a6c631d912de0d"
+  },
+  {
+    "frame": 109,
+    "time": 3.6333333333333333,
+    "parameters": {
+      "ParamAngleX": -7.387937703907898,
+      "ParamAngleY": 2.9108871788279895,
+      "ParamBreath": 0.37903905220016604,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6156614753256582,
+      "ParamEyeBallY": 0.33960350419659874,
+      "ParamMouthOpenY": 0.22742343132009962
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204588,
+    "max_alpha_delta": 191,
+    "rgba_sha256": "e7889f0ef7f6aa4c905c5ab8b8993c1b3ab6dad1dab9037110cf0de9bc80598c"
+  },
+  {
+    "frame": 110,
+    "time": 3.6666666666666665,
+    "parameters": {
+      "ParamAngleX": -7.7134513162384675,
+      "ParamAngleY": 2.9544232590366235,
+      "ParamBreath": 0.41317591116653435,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6427876096865389,
+      "ParamEyeBallY": 0.34468271355427277,
+      "ParamMouthOpenY": 0.2479055466999206
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204631,
+    "max_alpha_delta": 220,
+    "rgba_sha256": "3ff4d843b7be2cc5b3f6d810e571bd7710fc3aa4fac93638d0baf5f958cf5e1e"
+  },
+  {
+    "frame": 111,
+    "time": 3.7,
+    "parameters": {
+      "ParamAngleX": -8.029567276306299,
+      "ParamAngleY": 2.9835656861048196,
+      "ParamBreath": 0.44773576836617324,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6691306063588582,
+      "ParamEyeBallY": 0.34808266337889565,
+      "ParamMouthOpenY": 0.26864146101970393
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204653,
+    "max_alpha_delta": 157,
+    "rgba_sha256": "b6366dd678f356e73c1ec7a6c870bc3f953a3cddb247d5ff455c4c768a881521"
+  },
+  {
+    "frame": 112,
+    "time": 3.7333333333333334,
+    "parameters": {
+      "ParamAngleX": -8.335900445507967,
+      "ParamAngleY": 2.998172481057287,
+      "ParamBreath": 0.48255025164874954,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6946583704589973,
+      "ParamEyeBallY": 0.3497867894566835,
+      "ParamMouthOpenY": 0.2895301509892497
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204667,
+    "max_alpha_delta": 206,
+    "rgba_sha256": "53859bbeaa880dbc19e2f3e5061d6e82e0eb121dc09497cfc9ae5363dda9837c"
+  },
+  {
+    "frame": 113,
+    "time": 3.7666666666666666,
+    "parameters": {
+      "ParamAngleX": -8.63207760406381,
+      "ParamAngleY": 2.998172481057287,
+      "ParamBreath": 0.5174497483512501,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7193398003386509,
+      "ParamEyeBallY": 0.3497867894566835,
+      "ParamMouthOpenY": 0.3104698490107501
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204692,
+    "max_alpha_delta": 205,
+    "rgba_sha256": "34e17d4a0d528d98953865cd504eae2ea67560a95d5377f1d7bcf02e0763fa21"
+  },
+  {
+    "frame": 114,
+    "time": 3.8,
+    "parameters": {
+      "ParamAngleX": -8.917737905728728,
+      "ParamAngleY": 2.98356568610482,
+      "ParamBreath": 0.5522642316338264,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.743144825477394,
+      "ParamEyeBallY": 0.34808266337889565,
+      "ParamMouthOpenY": 0.3313585389802958
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204701,
+    "max_alpha_delta": 165,
+    "rgba_sha256": "33ed469b7cbc79e5c19407913414f1511d0dd09478cf50cb87339f5a6241bdf8"
+  },
+  {
+    "frame": 115,
+    "time": 3.8333333333333335,
+    "parameters": {
+      "ParamAngleX": -9.192533317427735,
+      "ParamAngleY": 2.9544232590366244,
+      "ParamBreath": 0.5868240888334649,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7660444431189779,
+      "ParamEyeBallY": 0.3446827135542728,
+      "ParamMouthOpenY": 0.35209445330007894
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204735,
+    "max_alpha_delta": 236,
+    "rgba_sha256": "da3f282b39b283de66d35913ada1c0747b9873b832cb6963dab4586e031b15a9"
+  },
+  {
+    "frame": 116,
+    "time": 3.8666666666666667,
+    "parameters": {
+      "ParamAngleX": -9.456129043280658,
+      "ParamAngleY": 2.9108871788279904,
+      "ParamBreath": 0.6209609477998332,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7880107536067216,
+      "ParamEyeBallY": 0.33960350419659885,
+      "ParamMouthOpenY": 0.3725765686798999
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204778,
+    "max_alpha_delta": 187,
+    "rgba_sha256": "fd2d97146a99b8d5c4db383f5fdf9917592e44148eeac0d708468deb9a0b95aa"
+  },
+  {
+    "frame": 117,
+    "time": 3.9,
+    "parameters": {
+      "ParamAngleX": -9.708203932499368,
+      "ParamAngleY": 2.853169548885461,
+      "ParamBreath": 0.6545084971874735,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8090169943749473,
+      "ParamEyeBallY": 0.33286978070330375,
+      "ParamMouthOpenY": 0.39270509831248407
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204795,
+    "max_alpha_delta": 168,
+    "rgba_sha256": "28c77c351bbd2a43b13085917dbd9f478bb95dd5f8d8586b1afb90977dbec4f8"
+  },
+  {
+    "frame": 118,
+    "time": 3.933333333333333,
+    "parameters": {
+      "ParamAngleX": -9.948450870660498,
+      "ParamAngleY": 2.7815515637003636,
+      "ParamBreath": 0.6873032967079555,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8290375725550414,
+      "ParamEyeBallY": 0.32451434909837573,
+      "ParamMouthOpenY": 0.41238197802477333
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204808,
+    "max_alpha_delta": 178,
+    "rgba_sha256": "cd408b7f425d505794d0525702ac8fd4416aa5542f8fe09923f349402257fdbe"
+  },
+  {
+    "frame": 119,
+    "time": 3.966666666666667,
+    "parameters": {
+      "ParamAngleX": -10.176577153877112,
+      "ParamAngleY": 2.6963821388975013,
+      "ParamBreath": 0.7191855733945387,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.848048096156426,
+      "ParamEyeBallY": 0.31457791620470843,
+      "ParamMouthOpenY": 0.4315113440367232
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204830,
+    "max_alpha_delta": 225,
+    "rgba_sha256": "8e2ff0411f473eff6f5972956cddecae1dabd8c11db5cfb4e30f400ef8ad5e8b"
+  },
+  {
+    "frame": 120,
+    "time": 4.0,
+    "parameters": {
+      "ParamAngleX": -10.392304845413262,
+      "ParamAngleY": 2.5980762113533173,
+      "ParamBreath": 0.7499999999999996,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8660254037844385,
+      "ParamEyeBallY": 0.3031088913245537,
+      "ParamMouthOpenY": 0.44999999999999973
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204881,
+    "max_alpha_delta": 188,
+    "rgba_sha256": "fb16433b414ff9eee5eb77bc0ac2f1cc8d9072d274b8ce21682137fbe63877a2"
+  },
+  {
+    "frame": 121,
+    "time": 4.033333333333333,
+    "parameters": {
+      "ParamAngleX": -10.595371114307119,
+      "ParamAngleY": 2.487112717665128,
+      "ParamBreath": 0.7795964517353727,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8829475928589265,
+      "ParamEyeBallY": 0.2901631503942649,
+      "ParamMouthOpenY": 0.4677578710412236
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204885,
+    "max_alpha_delta": 156,
+    "rgba_sha256": "92f25552552ecfd9d8cc8790c0d0b7788d54db34ef391459774a9f9c3c1481ba"
+  },
+  {
+    "frame": 122,
+    "time": 4.066666666666666,
+    "parameters": {
+      "ParamAngleX": -10.785528555590002,
+      "ParamAngleY": 2.364032260820167,
+      "ParamBreath": 0.8078307376628289,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8987940462991668,
+      "ParamEyeBallY": 0.2758037637623528,
+      "ParamMouthOpenY": 0.4846984425976973
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204890,
+    "max_alpha_delta": 161,
+    "rgba_sha256": "77507d8f6c5084eb6fe6312fbab64f05c31b28745695c46cdbb1ef98e0b9f549"
+  },
+  {
+    "frame": 123,
+    "time": 4.1,
+    "parameters": {
+      "ParamAngleX": -10.962545491711207,
+      "ParamAngleY": 2.2294344764321856,
+      "ParamBreath": 0.8345653031794286,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9135454576426005,
+      "ParamEyeBallY": 0.2601006889170883,
+      "ParamMouthOpenY": 0.5007391819076571
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204894,
+    "max_alpha_delta": 153,
+    "rgba_sha256": "dfcf8e1815d2b824ff13a55ea366d730244528d7e9ed0a5fa74aca0aee6ead0a"
+  },
+  {
+    "frame": 124,
+    "time": 4.133333333333334,
+    "parameters": {
+      "ParamAngleX": -11.126206254801447,
+      "ParamAngleY": 2.083975111376993,
+      "ParamBreath": 0.8596699001693253,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9271838545667873,
+      "ParamEyeBallY": 0.24313042966064918,
+      "ParamMouthOpenY": 0.5158019401015952
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204903,
+    "max_alpha_delta": 195,
+    "rgba_sha256": "85e911569a7d10b043af4d0415784d6e10f98ec38843828abc562b1ab56038a4"
+  },
+  {
+    "frame": 125,
+    "time": 4.166666666666667,
+    "parameters": {
+      "ParamAngleX": -11.276311449430901,
+      "ParamAngleY": 1.928362829059617,
+      "ParamBreath": 0.8830222215594892,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9396926207859084,
+      "ParamEyeBallY": 0.22497566339028865,
+      "ParamMouthOpenY": 0.5298133329356934
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204925,
+    "max_alpha_delta": 189,
+    "rgba_sha256": "9f22d00d1589b397367247ebafb0c9b0d2683e6d515cf23e5c3c17e60a3c4b81"
+  },
+  {
+    "frame": 126,
+    "time": 4.2,
+    "parameters": {
+      "ParamAngleX": -11.412678195541842,
+      "ParamAngleY": 1.76335575687742,
+      "ParamBreath": 0.9045084971874736,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9510565162951535,
+      "ParamEyeBallY": 0.20572483830236565,
+      "ParamMouthOpenY": 0.5427050983124841
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204924,
+    "max_alpha_delta": 154,
+    "rgba_sha256": "93f397166380cd9090bc4bfa3c748eee3444504a36d76394b491ec473844987f"
+  },
+  {
+    "frame": 127,
+    "time": 4.233333333333333,
+    "parameters": {
+      "ParamAngleX": -11.535140351259829,
+      "ParamAngleY": 1.5897577926996134,
+      "ParamBreath": 0.9240240480782131,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.961261695938319,
+      "ParamEyeBallY": 0.18547174248162154,
+      "ParamMouthOpenY": 0.5544144288469278
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204929,
+    "max_alpha_delta": 157,
+    "rgba_sha256": "fb582d10cb2d99213dc33c178d619b7e4b70aa0bbfdcecf99ddf1fbb32742365"
+  },
+  {
+    "frame": 128,
+    "time": 4.266666666666667,
+    "parameters": {
+      "ParamAngleX": -11.643548715311958,
+      "ParamAngleY": 1.4084146883576727,
+      "ParamBreath": 0.9414737964294635,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9702957262759965,
+      "ParamEyeBallY": 0.1643150469750618,
+      "ParamMouthOpenY": 0.564884277857678
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204917,
+    "max_alpha_delta": 190,
+    "rgba_sha256": "0b40a6c5c542ef297185e5b236e991728ac10cfc193c9665c29160b7d6c92893"
+  },
+  {
+    "frame": 129,
+    "time": 4.3,
+    "parameters": {
+      "ParamAngleX": -11.737771208805666,
+      "ParamAngleY": 1.2202099292274031,
+      "ParamBreath": 0.9567727288213003,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9781476007338056,
+      "ParamEyeBallY": 0.14235782507653036,
+      "ParamMouthOpenY": 0.5740636372927801
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204907,
+    "max_alpha_delta": 168,
+    "rgba_sha256": "c8f91c3930ed03314079932d8d1206930acd21dec2fa79cb2ba71a4032c9be5b"
+  },
+  {
+    "frame": 130,
+    "time": 4.333333333333333,
+    "parameters": {
+      "ParamAngleX": -11.817693036146494,
+      "ParamAngleY": 1.026060429977011,
+      "ParamBreath": 0.9698463103929539,
+      "ParamEyeLOpen": 0.9259259259259276,
+      "ParamEyeROpen": 0.9259259259259276,
+      "ParamEyeBallX": -0.9848077530122079,
+      "ParamEyeBallY": 0.11970705016398463,
+      "ParamMouthOpenY": 0.5819077862357723
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204911,
+    "max_alpha_delta": 209,
+    "rgba_sha256": "5469afb821774a2c51391ce1d8651545c17e19176cbeade49230d5129eec3362"
+  },
+  {
+    "frame": 131,
+    "time": 4.366666666666666,
+    "parameters": {
+      "ParamAngleX": -11.883216824898843,
+      "ParamAngleY": 0.8269120674509997,
+      "ParamBreath": 0.9806308479691593,
+      "ParamEyeLOpen": 0.740740740740743,
+      "ParamEyeROpen": 0.740740740740743,
+      "ParamEyeBallX": -0.9902680687415703,
+      "ParamEyeBallY": 0.09647307453594996,
+      "ParamMouthOpenY": 0.5883785087814956
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204902,
+    "max_alpha_delta": 176,
+    "rgba_sha256": "2a16906ae620bb2d8b4ee24deb6af6b23daca5e20aee2b9dd410f0f50932eccf"
+  },
+  {
+    "frame": 132,
+    "time": 4.4,
+    "parameters": {
+      "ParamAngleX": -11.93426274441928,
+      "ParamAngleY": 0.6237350724532773,
+      "ParamBreath": 0.9890738003669028,
+      "ParamEyeLOpen": 0.5555555555555536,
+      "ParamEyeROpen": 0.5555555555555536,
+      "ParamEyeBallX": -0.9945218953682734,
+      "ParamEyeBallY": 0.07276909178621568,
+      "ParamMouthOpenY": 0.5934442802201417
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204885,
+    "max_alpha_delta": 109,
+    "rgba_sha256": "af7a67b3b8d03b4fc6e128269b5abf9a0dcab598a539dbcaf27257d67c8907bc"
+  },
+  {
+    "frame": 133,
+    "time": 4.433333333333334,
+    "parameters": {
+      "ParamAngleX": -11.97076860311789,
+      "ParamAngleY": 0.417519302880198,
+      "ParamBreath": 0.9951340343707851,
+      "ParamEyeLOpen": 0.37037037037036913,
+      "ParamEyeROpen": 0.37037037037036913,
+      "ParamEyeBallX": -0.9975640502598242,
+      "ParamEyeBallY": 0.04871058533602309,
+      "ParamMouthOpenY": 0.597080420622471
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204882,
+    "max_alpha_delta": 131,
+    "rgba_sha256": "28cf02750a57de53ba67f054f35b5fe403b0ed8a7bc72b449f6eb5202c1f3db8"
+  },
+  {
+    "frame": 134,
+    "time": 4.466666666666667,
+    "parameters": {
+      "ParamAngleX": -11.992689924229149,
+      "ParamAngleY": 0.20926942123237463,
+      "ParamBreath": 0.9987820251299122,
+      "ParamEyeLOpen": 0.18518518518518456,
+      "ParamEyeROpen": 0.18518518518518456,
+      "ParamEyeBallX": -0.9993908270190958,
+      "ParamEyeBallY": 0.024414765810443703,
+      "ParamMouthOpenY": 0.5992692150779473
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204853,
+    "max_alpha_delta": 193,
+    "rgba_sha256": "903d2cf564c3d02d2d6d3a3f0e572557507ae04ed03b2e8a92a921b50fec71f4"
+  },
+  {
+    "frame": 135,
+    "time": 4.5,
+    "parameters": {
+      "ParamAngleX": -12.0,
+      "ParamAngleY": 1.102182119232618e-15,
+      "ParamBreath": 1.0,
+      "ParamEyeLOpen": 0.0,
+      "ParamEyeROpen": 0.0,
+      "ParamEyeBallX": -1.0,
+      "ParamEyeBallY": 1.2858791391047207e-16,
+      "ParamMouthOpenY": 0.6
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204836,
+    "max_alpha_delta": 188,
+    "rgba_sha256": "9b645499c51bc4b19d1abe9c18a37e6c2320c1338ab8ff7d69884c0b8a02612c"
+  },
+  {
+    "frame": 136,
+    "time": 4.533333333333333,
+    "parameters": {
+      "ParamAngleX": -11.992689924229149,
+      "ParamAngleY": -0.20926942123237247,
+      "ParamBreath": 0.9987820251299122,
+      "ParamEyeLOpen": 0.18518518518518456,
+      "ParamEyeROpen": 0.18518518518518456,
+      "ParamEyeBallX": -0.9993908270190958,
+      "ParamEyeBallY": -0.02441476581044345,
+      "ParamMouthOpenY": 0.5992692150779473
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204822,
+    "max_alpha_delta": 212,
+    "rgba_sha256": "041c99eb613e58ff98b19db60b4d68cfb008ad1a15f05c9ceb8e62c076c1f08e"
+  },
+  {
+    "frame": 137,
+    "time": 4.566666666666666,
+    "parameters": {
+      "ParamAngleX": -11.970768603117891,
+      "ParamAngleY": -0.4175193028801958,
+      "ParamBreath": 0.9951340343707852,
+      "ParamEyeLOpen": 0.37037037037036913,
+      "ParamEyeROpen": 0.37037037037036913,
+      "ParamEyeBallX": -0.9975640502598243,
+      "ParamEyeBallY": -0.04871058533602284,
+      "ParamMouthOpenY": 0.5970804206224711
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204797,
+    "max_alpha_delta": 123,
+    "rgba_sha256": "935734a43c9e344a7ac9be7f608fcffa2b6bcd82bced497bc14c528442219657"
+  },
+  {
+    "frame": 138,
+    "time": 4.6,
+    "parameters": {
+      "ParamAngleX": -11.93426274441928,
+      "ParamAngleY": -0.6237350724532752,
+      "ParamBreath": 0.9890738003669028,
+      "ParamEyeLOpen": 0.5555555555555536,
+      "ParamEyeROpen": 0.5555555555555536,
+      "ParamEyeBallX": -0.9945218953682734,
+      "ParamEyeBallY": -0.07276909178621543,
+      "ParamMouthOpenY": 0.5934442802201417
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204778,
+    "max_alpha_delta": 226,
+    "rgba_sha256": "3b5e961e87abe64e12ae596068e05eefed2f13b2386503dedc02fac15d7e5692"
+  },
+  {
+    "frame": 139,
+    "time": 4.633333333333334,
+    "parameters": {
+      "ParamAngleX": -11.883216824898845,
+      "ParamAngleY": -0.8269120674509977,
+      "ParamBreath": 0.9806308479691594,
+      "ParamEyeLOpen": 0.740740740740743,
+      "ParamEyeROpen": 0.740740740740743,
+      "ParamEyeBallX": -0.9902680687415704,
+      "ParamEyeBallY": -0.09647307453594972,
+      "ParamMouthOpenY": 0.5883785087814957
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204749,
+    "max_alpha_delta": 165,
+    "rgba_sha256": "a2795711bfea9937176d305f1bf8380352dffb617a292b7de233b41d11b98c21"
+  },
+  {
+    "frame": 140,
+    "time": 4.666666666666667,
+    "parameters": {
+      "ParamAngleX": -11.817693036146496,
+      "ParamAngleY": -1.0260604299770089,
+      "ParamBreath": 0.969846310392954,
+      "ParamEyeLOpen": 0.9259259259259276,
+      "ParamEyeROpen": 0.9259259259259276,
+      "ParamEyeBallX": -0.984807753012208,
+      "ParamEyeBallY": -0.11970705016398438,
+      "ParamMouthOpenY": 0.5819077862357723
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204740,
+    "max_alpha_delta": 167,
+    "rgba_sha256": "42624b81b66b43b01e01a2cdf349ffe77d17a220dc0950b3e1b01b6a7eb2398a"
+  },
+  {
+    "frame": 141,
+    "time": 4.7,
+    "parameters": {
+      "ParamAngleX": -11.737771208805666,
+      "ParamAngleY": -1.2202099292274011,
+      "ParamBreath": 0.9567727288213004,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9781476007338056,
+      "ParamEyeBallY": -0.1423578250765301,
+      "ParamMouthOpenY": 0.5740636372927802
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204707,
+    "max_alpha_delta": 188,
+    "rgba_sha256": "76f3913f1b7cb02f48170a243717e038dca6393b769cc73a41d815fd23bd7118"
+  },
+  {
+    "frame": 142,
+    "time": 4.733333333333333,
+    "parameters": {
+      "ParamAngleX": -11.643548715311958,
+      "ParamAngleY": -1.4084146883576707,
+      "ParamBreath": 0.9414737964294636,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9702957262759966,
+      "ParamEyeBallY": -0.16431504697506158,
+      "ParamMouthOpenY": 0.5648842778576781
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204672,
+    "max_alpha_delta": 191,
+    "rgba_sha256": "27e494d4c46b7b393fde19e3b3a3d05aaaf4efba1a4850de6866365396aff116"
+  },
+  {
+    "frame": 143,
+    "time": 4.766666666666667,
+    "parameters": {
+      "ParamAngleX": -11.535140351259829,
+      "ParamAngleY": -1.5897577926996114,
+      "ParamBreath": 0.9240240480782134,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.961261695938319,
+      "ParamEyeBallY": -0.18547174248162132,
+      "ParamMouthOpenY": 0.554414428846928
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204647,
+    "max_alpha_delta": 203,
+    "rgba_sha256": "11da1a94502ec8bb4461444b902a799daab0096f1704a4769f62cd4710da9448"
+  },
+  {
+    "frame": 144,
+    "time": 4.8,
+    "parameters": {
+      "ParamAngleX": -11.412678195541844,
+      "ParamAngleY": -1.7633557568774183,
+      "ParamBreath": 0.9045084971874738,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9510565162951536,
+      "ParamEyeBallY": -0.20572483830236546,
+      "ParamMouthOpenY": 0.5427050983124843
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204610,
+    "max_alpha_delta": 176,
+    "rgba_sha256": "9635c5c550ea69abbfce3d7fb611cf9535bda68c44aac0c1d6a6f039e2ef9b9d"
+  },
+  {
+    "frame": 145,
+    "time": 4.833333333333333,
+    "parameters": {
+      "ParamAngleX": -11.276311449430903,
+      "ParamAngleY": -1.9283628290596155,
+      "ParamBreath": 0.8830222215594894,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9396926207859085,
+      "ParamEyeBallY": -0.22497566339028846,
+      "ParamMouthOpenY": 0.5298133329356937
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204589,
+    "max_alpha_delta": 221,
+    "rgba_sha256": "d57c47ee798b64e4ec263ab03f7cdff3b5cb8b95b5e444d7800c7fd7a4207e25"
+  },
+  {
+    "frame": 146,
+    "time": 4.866666666666666,
+    "parameters": {
+      "ParamAngleX": -11.126206254801449,
+      "ParamAngleY": -2.0839751113769913,
+      "ParamBreath": 0.8596699001693257,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9271838545667874,
+      "ParamEyeBallY": -0.243130429660649,
+      "ParamMouthOpenY": 0.5158019401015954
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204536,
+    "max_alpha_delta": 228,
+    "rgba_sha256": "47f237614950877fdc14259c839a5b18dbe539a9d1f288c21848e9376957e490"
+  },
+  {
+    "frame": 147,
+    "time": 4.9,
+    "parameters": {
+      "ParamAngleX": -10.962545491711209,
+      "ParamAngleY": -2.2294344764321843,
+      "ParamBreath": 0.8345653031794288,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.9135454576426008,
+      "ParamEyeBallY": -0.26010068891708815,
+      "ParamMouthOpenY": 0.5007391819076572
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204483,
+    "max_alpha_delta": 236,
+    "rgba_sha256": "750a0ca9270edb5132bbbd0e45964b40a6c610561c995a226530702a1baa7260"
+  },
+  {
+    "frame": 148,
+    "time": 4.933333333333334,
+    "parameters": {
+      "ParamAngleX": -10.785528555590005,
+      "ParamAngleY": -2.3640322608201663,
+      "ParamBreath": 0.8078307376628291,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.898794046299167,
+      "ParamEyeBallY": -0.27580376376235266,
+      "ParamMouthOpenY": 0.48469844259769745
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204446,
+    "max_alpha_delta": 231,
+    "rgba_sha256": "07414a2d97c5a2f06ad7cd2fd19b3593a797559de3dca2e1fda1a2921da42c7b"
+  },
+  {
+    "frame": 149,
+    "time": 4.966666666666667,
+    "parameters": {
+      "ParamAngleX": -10.59537111430712,
+      "ParamAngleY": -2.487112717665127,
+      "ParamBreath": 0.7795964517353731,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8829475928589268,
+      "ParamEyeBallY": -0.29016315039426477,
+      "ParamMouthOpenY": 0.4677578710412238
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204410,
+    "max_alpha_delta": 208,
+    "rgba_sha256": "6472ede0abf5d06a3950fed913ce2ba1c37d3005641a96a31dd196a33080becc"
+  },
+  {
+    "frame": 150,
+    "time": 5.0,
+    "parameters": {
+      "ParamAngleX": -10.392304845413264,
+      "ParamAngleY": -2.598076211353316,
+      "ParamBreath": 0.7499999999999999,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8660254037844386,
+      "ParamEyeBallY": -0.30310889132455354,
+      "ParamMouthOpenY": 0.4499999999999999
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204379,
+    "max_alpha_delta": 198,
+    "rgba_sha256": "22671b4fb7da21cc8677ed6b996369199cc1931ada8111cd25c0f13d71bc0891"
+  },
+  {
+    "frame": 151,
+    "time": 5.033333333333333,
+    "parameters": {
+      "ParamAngleX": -10.176577153877112,
+      "ParamAngleY": -2.6963821388975,
+      "ParamBreath": 0.7191855733945389,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8480480961564261,
+      "ParamEyeBallY": -0.3145779162047083,
+      "ParamMouthOpenY": 0.43151134403672337
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204345,
+    "max_alpha_delta": 214,
+    "rgba_sha256": "eab599c34ddbac281fa2e1e434fdb7f1a999140e7fe3ae564d8494a33bb8a14b"
+  },
+  {
+    "frame": 152,
+    "time": 5.066666666666666,
+    "parameters": {
+      "ParamAngleX": -9.948450870660505,
+      "ParamAngleY": -2.7815515637003605,
+      "ParamBreath": 0.6873032967079566,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8290375725550421,
+      "ParamEyeBallY": -0.3245143490983754,
+      "ParamMouthOpenY": 0.412381978024774
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204319,
+    "max_alpha_delta": 171,
+    "rgba_sha256": "427b67bbc532a2513e85192289441cb71e740d2a6e8616ab0e23e259115c051c"
+  },
+  {
+    "frame": 153,
+    "time": 5.1,
+    "parameters": {
+      "ParamAngleX": -9.708203932499377,
+      "ParamAngleY": -2.8531695488854587,
+      "ParamBreath": 0.6545084971874747,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.8090169943749481,
+      "ParamEyeBallY": -0.3328697807033035,
+      "ParamMouthOpenY": 0.39270509831248485
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204293,
+    "max_alpha_delta": 190,
+    "rgba_sha256": "15a059026ea5c6ffec8ba7621549560d3673431e594ad3595ffd93f3bb149ba6"
+  },
+  {
+    "frame": 154,
+    "time": 5.133333333333334,
+    "parameters": {
+      "ParamAngleX": -9.456129043280662,
+      "ParamAngleY": -2.9108871788279895,
+      "ParamBreath": 0.6209609477998336,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7880107536067218,
+      "ParamEyeBallY": -0.3396035041965988,
+      "ParamMouthOpenY": 0.37257656867990013
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204242,
+    "max_alpha_delta": 192,
+    "rgba_sha256": "f4a94fbc33bb1d3ed0262c999a241126069ceeb5162d7d1c24ae731b2c788d9b"
+  },
+  {
+    "frame": 155,
+    "time": 5.166666666666667,
+    "parameters": {
+      "ParamAngleX": -9.192533317427738,
+      "ParamAngleY": -2.954423259036624,
+      "ParamBreath": 0.5868240888334653,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7660444431189781,
+      "ParamEyeBallY": -0.34468271355427277,
+      "ParamMouthOpenY": 0.35209445330007916
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204216,
+    "max_alpha_delta": 219,
+    "rgba_sha256": "9bb3ce88299717104ec3560b915eb59c5fa639d138d9ad80e4930cb70d886a8f"
+  },
+  {
+    "frame": 156,
+    "time": 5.2,
+    "parameters": {
+      "ParamAngleX": -8.917737905728735,
+      "ParamAngleY": -2.9835656861048196,
+      "ParamBreath": 0.5522642316338272,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7431448254773946,
+      "ParamEyeBallY": -0.3480826633788956,
+      "ParamMouthOpenY": 0.3313585389802963
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204197,
+    "max_alpha_delta": 236,
+    "rgba_sha256": "e2df5c92ed746ee3037029f5c638bc3d9c0fb1f34fa59c24b6f28fa579565e8a"
+  },
+  {
+    "frame": 157,
+    "time": 5.233333333333333,
+    "parameters": {
+      "ParamAngleX": -8.632077604063813,
+      "ParamAngleY": -2.998172481057287,
+      "ParamBreath": 0.5174497483512505,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.7193398003386511,
+      "ParamEyeBallY": -0.3497867894566835,
+      "ParamMouthOpenY": 0.31046984901075025
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204169,
+    "max_alpha_delta": 184,
+    "rgba_sha256": "44d71cea4d0dbe113f909832536cafb7b6fe80577f9043858fb7b8d11c609317"
+  },
+  {
+    "frame": 158,
+    "time": 5.266666666666667,
+    "parameters": {
+      "ParamAngleX": -8.335900445507963,
+      "ParamAngleY": -2.9981724810572867,
+      "ParamBreath": 0.48255025164874904,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6946583704589969,
+      "ParamEyeBallY": -0.34978678945668346,
+      "ParamMouthOpenY": 0.2895301509892494
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204144,
+    "max_alpha_delta": 194,
+    "rgba_sha256": "d51090d7cfc75751de71227628c334333701a03fc8f62212b9537f565f0a67bd"
+  },
+  {
+    "frame": 159,
+    "time": 5.3,
+    "parameters": {
+      "ParamAngleX": -8.029567276306306,
+      "ParamAngleY": -2.9835656861048205,
+      "ParamBreath": 0.44773576836617407,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6691306063588588,
+      "ParamEyeBallY": -0.3480826633788957,
+      "ParamMouthOpenY": 0.26864146101970443
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204109,
+    "max_alpha_delta": 178,
+    "rgba_sha256": "3c4015f0c01d3bb041ad328ecf2b7332cc0da0de96692cc4474e8c9e019428bc"
+  },
+  {
+    "frame": 160,
+    "time": 5.333333333333333,
+    "parameters": {
+      "ParamAngleX": -7.713451316238475,
+      "ParamAngleY": -2.9544232590366244,
+      "ParamBreath": 0.4131759111665351,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6427876096865396,
+      "ParamEyeBallY": -0.3446827135542728,
+      "ParamMouthOpenY": 0.24790554669992107
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204061,
+    "max_alpha_delta": 184,
+    "rgba_sha256": "f2324f61444dbad2ec08dd339cdb8bf4c7433f85dcc8989deb091ea2eccb00a4"
+  },
+  {
+    "frame": 161,
+    "time": 5.366666666666666,
+    "parameters": {
+      "ParamAngleX": -7.387937703907906,
+      "ParamAngleY": -2.9108871788279904,
+      "ParamBreath": 0.3790390522001668,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.6156614753256588,
+      "ParamEyeBallY": -0.33960350419659885,
+      "ParamMouthOpenY": 0.22742343132010007
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204012,
+    "max_alpha_delta": 177,
+    "rgba_sha256": "ab4e0bb3ae81503a056c769036dce67f6b36cfb8184e94fb53f49ed1b66b8b26"
+  },
+  {
+    "frame": 162,
+    "time": 5.4,
+    "parameters": {
+      "ParamAngleX": -7.05342302750968,
+      "ParamAngleY": -2.8531695488854614,
+      "ParamBreath": 0.3454915028125265,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.5877852522924734,
+      "ParamEyeBallY": -0.3328697807033038,
+      "ParamMouthOpenY": 0.20729490168751588
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204011,
+    "max_alpha_delta": 206,
+    "rgba_sha256": "a90c87b69c68ccc7940b8c1ba4fede6dfad481c2e270d5d5f07c6df94c86297e"
+  },
+  {
+    "frame": 163,
+    "time": 5.433333333333334,
+    "parameters": {
+      "ParamAngleX": -6.710314841648959,
+      "ParamAngleY": -2.7815515637003614,
+      "ParamBreath": 0.31269670329204374,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.5591929034707466,
+      "ParamEyeBallY": -0.3245143490983755,
+      "ParamMouthOpenY": 0.18761802197522623
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203992,
+    "max_alpha_delta": 175,
+    "rgba_sha256": "8cb190e528219938af6bc225dcaa1f45e3195c748417b4e587325e7393c3654c"
+  },
+  {
+    "frame": 164,
+    "time": 5.466666666666667,
+    "parameters": {
+      "ParamAngleX": -6.35903117079846,
+      "ParamAngleY": -2.6963821388975013,
+      "ParamBreath": 0.2808144266054614,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.529919264233205,
+      "ParamEyeBallY": -0.3145779162047085,
+      "ParamMouthOpenY": 0.16848865596327683
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203976,
+    "max_alpha_delta": 188,
+    "rgba_sha256": "fc16b5bbdbe9e9f41286c2da07a889ecf414f638ff3664cf20358f60325735c3"
+  },
+  {
+    "frame": 165,
+    "time": 5.5,
+    "parameters": {
+      "ParamAngleX": -6.000000000000005,
+      "ParamAngleY": -2.5980762113533173,
+      "ParamBreath": 0.25000000000000044,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.5000000000000004,
+      "ParamEyeBallY": -0.3031088913245537,
+      "ParamMouthOpenY": 0.15000000000000027
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203952,
+    "max_alpha_delta": 186,
+    "rgba_sha256": "06fd46412606c8ba3cbba304cccd525a3d758ea228529a7538731265ab7ce353"
+  },
+  {
+    "frame": 166,
+    "time": 5.533333333333333,
+    "parameters": {
+      "ParamAngleX": -5.633658753430699,
+      "ParamAngleY": -2.487112717665128,
+      "ParamBreath": 0.22040354826462732,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.4694715627858916,
+      "ParamEyeBallY": -0.29016315039426493,
+      "ParamMouthOpenY": 0.13224212895877638
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203945,
+    "max_alpha_delta": 219,
+    "rgba_sha256": "392c76c8db68d35cce4e8060c7733118f92bfbfabf99976540a3422ec82f185d"
+  },
+  {
+    "frame": 167,
+    "time": 5.566666666666666,
+    "parameters": {
+      "ParamAngleX": -5.260453761468933,
+      "ParamAngleY": -2.364032260820167,
+      "ParamBreath": 0.1921692623371712,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.4383711467890778,
+      "ParamEyeBallY": -0.2758037637623528,
+      "ParamMouthOpenY": 0.1153015574023027
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203940,
+    "max_alpha_delta": 168,
+    "rgba_sha256": "8f254583dece48a991cc6b6110fe8c30a0a1b2a5170595184cb1133537762afa"
+  },
+  {
+    "frame": 168,
+    "time": 5.6,
+    "parameters": {
+      "ParamAngleX": -4.880839716909602,
+      "ParamAngleY": -2.2294344764321825,
+      "ParamBreath": 0.16543469682057083,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.40673664307580015,
+      "ParamEyeBallY": -0.26010068891708793,
+      "ParamMouthOpenY": 0.0992608180923425
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203915,
+    "max_alpha_delta": 233,
+    "rgba_sha256": "7e2c3d0ca58c21fbe90eda8f1d93756ca4f451b56eb109fe8a5f39b2f9347b57"
+  },
+  {
+    "frame": 169,
+    "time": 5.633333333333334,
+    "parameters": {
+      "ParamAngleX": -4.495279120990948,
+      "ParamAngleY": -2.083975111376993,
+      "ParamBreath": 0.14033009983067468,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.37460659341591235,
+      "ParamEyeBallY": -0.24313042966064918,
+      "ParamMouthOpenY": 0.0841980598984048
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203881,
+    "max_alpha_delta": 203,
+    "rgba_sha256": "15329497e6e7d63bfef82079d1e73aaa516c5c7c182b7199b00e08dd8436aebc"
+  },
+  {
+    "frame": 170,
+    "time": 5.666666666666667,
+    "parameters": {
+      "ParamAngleX": -4.104241719908023,
+      "ParamAngleY": -1.928362829059617,
+      "ParamBreath": 0.11697777844051088,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.3420201433256686,
+      "ParamEyeBallY": -0.22497566339028865,
+      "ParamMouthOpenY": 0.07018666706430653
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203878,
+    "max_alpha_delta": 136,
+    "rgba_sha256": "9b09b8cc8c29488385dd97e5428999d2823ee4eeb60b245db60421e845475dcc"
+  },
+  {
+    "frame": 171,
+    "time": 5.7,
+    "parameters": {
+      "ParamAngleX": -3.7082039324993614,
+      "ParamAngleY": -1.763355756877416,
+      "ParamBreath": 0.09549150281252589,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.3090169943749468,
+      "ParamEyeBallY": -0.2057248383023652,
+      "ParamMouthOpenY": 0.057294901687515526
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203896,
+    "max_alpha_delta": 233,
+    "rgba_sha256": "8c85e043770790c8b839ef39b1d1d9ceea5f0fae58b4f3986fb28ecc6eaf0c90"
+  },
+  {
+    "frame": 172,
+    "time": 5.733333333333333,
+    "parameters": {
+      "ParamAngleX": -3.3076482698039973,
+      "ParamAngleY": -1.589757792699618,
+      "ParamBreath": 0.07597595192178735,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.2756373558169998,
+      "ParamEyeBallY": -0.1854717424816221,
+      "ParamMouthOpenY": 0.045585571153072414
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203905,
+    "max_alpha_delta": 169,
+    "rgba_sha256": "dee5424d7eb7dd06a3af2ed8580ee569a99df06fdce6d17982adf4623ae9083b"
+  },
+  {
+    "frame": 173,
+    "time": 5.766666666666667,
+    "parameters": {
+      "ParamAngleX": -2.9030627471960146,
+      "ParamAngleY": -1.4084146883576731,
+      "ParamBreath": 0.05852620357053662,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.24192189559966787,
+      "ParamEyeBallY": -0.16431504697506186,
+      "ParamMouthOpenY": 0.03511572214232197
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203936,
+    "max_alpha_delta": 165,
+    "rgba_sha256": "fbb48121865b1e9e2e7e366b4c2fd24b7a4c482dd7da5664a3cba1e7e7232c66"
+  },
+  {
+    "frame": 174,
+    "time": 5.8,
+    "parameters": {
+      "ParamAngleX": -2.4949402898131186,
+      "ParamAngleY": -1.2202099292274036,
+      "ParamBreath": 0.04322727117869979,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.20791169081775987,
+      "ParamEyeBallY": -0.14235782507653041,
+      "ParamMouthOpenY": 0.025936362707219874
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203932,
+    "max_alpha_delta": 212,
+    "rgba_sha256": "db36ed078d682a402ede8679388c7395d9dd266677fe828547548d7ed13db82c"
+  },
+  {
+    "frame": 175,
+    "time": 5.833333333333333,
+    "parameters": {
+      "ParamAngleX": -2.0837781320031645,
+      "ParamAngleY": -1.0260604299770064,
+      "ParamBreath": 0.03015368960704584,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.1736481776669304,
+      "ParamEyeBallY": -0.11970705016398409,
+      "ParamMouthOpenY": 0.018092213764227504
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203939,
+    "max_alpha_delta": 182,
+    "rgba_sha256": "31fda43b6405f0155ac3df4fe110b1582e78daa3041b952ff9ed1b51ab7c645a"
+  },
+  {
+    "frame": 176,
+    "time": 5.866666666666666,
+    "parameters": {
+      "ParamAngleX": -1.670077211520801,
+      "ParamAngleY": -0.8269120674510051,
+      "ParamBreath": 0.01936915203084094,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.13917310096006674,
+      "ParamEyeBallY": -0.0964730745359506,
+      "ParamMouthOpenY": 0.011621491218504565
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203951,
+    "max_alpha_delta": 241,
+    "rgba_sha256": "7beb694cbd90990645f9829933c29fecff5e55a4d561c60c5fe071c1298a9c69"
+  },
+  {
+    "frame": 177,
+    "time": 5.9,
+    "parameters": {
+      "ParamAngleX": -1.254341559211841,
+      "ParamAngleY": -0.6237350724532778,
+      "ParamBreath": 0.010926199633097156,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.10452846326765342,
+      "ParamEyeBallY": -0.07276909178621573,
+      "ParamMouthOpenY": 0.006555719779858293
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203960,
+    "max_alpha_delta": 222,
+    "rgba_sha256": "830560d4e5e91fc671992143455fb708e6cdace8e83e7fbf1080727330fd9746"
+  },
+  {
+    "frame": 178,
+    "time": 5.933333333333334,
+    "parameters": {
+      "ParamAngleX": -0.8370776849294972,
+      "ParamAngleY": -0.41751930288019307,
+      "ParamBreath": 0.0048659656292147635,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.06975647374412476,
+      "ParamEyeBallY": -0.04871058533602252,
+      "ParamMouthOpenY": 0.002919579377528858
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203967,
+    "max_alpha_delta": 177,
+    "rgba_sha256": "1a3abeea4135bd8a81aa4e5761b9755c4f6072f8aefd43307f93964da27139f1"
+  },
+  {
+    "frame": 179,
+    "time": 5.966666666666667,
+    "parameters": {
+      "ParamAngleX": -0.41879396043002054,
+      "ParamAngleY": -0.20926942123238032,
+      "ParamBreath": 0.0012179748700879012,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -0.03489949670250171,
+      "ParamEyeBallY": -0.02441476581044437,
+      "ParamMouthOpenY": 0.0007307849220527406
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 203990,
+    "max_alpha_delta": 222,
+    "rgba_sha256": "b707b18acaeab912e5b921e94659a55fff0e1d9f98df86e0d4a046fcf9a8caeb"
+  },
+  {
+    "frame": 180,
+    "time": 6.0,
+    "parameters": {
+      "ParamAngleX": -2.9391523179536475e-15,
+      "ParamAngleY": -1.4695761589768238e-15,
+      "ParamBreath": 0.0,
+      "ParamEyeLOpen": 1,
+      "ParamEyeROpen": 1,
+      "ParamEyeBallX": -2.4492935982947064e-16,
+      "ParamEyeBallY": -1.7145055188062944e-16,
+      "ParamMouthOpenY": 0.0
+    },
+    "gl_error": 0,
+    "nontransparent_pixels": 204011,
+    "max_alpha_delta": 233,
+    "rgba_sha256": "4291332845ba9d9588d9c7e7121b1249dcad14352e091ec649e09a662c4aff42"
+  }
+]

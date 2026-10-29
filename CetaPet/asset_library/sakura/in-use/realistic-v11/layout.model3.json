@@ -1,0 +1,38 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "layout.moc3",
+		"Textures": [
+			"layout.4096/texture_00.png"
+		],
+		"Physics": "layout.physics3.json",
+		"DisplayInfo": "layout.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "微笑",
+				"File": "layout.smile.exp3.json"
+			},
+			{
+				"Name": "悲伤",
+				"File": "layout.sad.exp3.json"
+			},
+			{
+				"Name": "生气",
+				"File": "layout.angry.exp3.json"
+			},
+			{
+				"Name": "惊讶",
+				"File": "layout.surprised.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}

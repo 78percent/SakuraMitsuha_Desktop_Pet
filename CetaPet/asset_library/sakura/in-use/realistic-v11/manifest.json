@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "realistic",
+  "status": "runtime-ready",
+  "adapter": "cubism-v11-frames-v1",
+  "model": "layout.model3.json",
+  "capabilities": {
+    "basic_visibility": true,
+    "water_mist": true,
+    "water_mist_provider": "host-shared-v1"
+  },
+  "acceptance": {
+    "integration_authorized": true,
+    "runtime_verified": true,
+    "visual_approved": false,
+    "evidence": "integration-evidence.md"
+  },
+  "animation": {
+    "kind": "sdk-rendered-loop",
+    "file": "eyes-samples.json",
+    "preview": "eyes.webp",
+    "fps": 30,
+    "frames": 180
+  },
+  "files": {
+    "eyes-samples.json": "9576c9eaf2c592407e1f951f5253dfa2f0c1ddf7c875a46484c08095d9560975",
+    "eyes.webp": "823d1a621931f12b8990d6fbc5d8cae91c17d378b02643bb58dc5d4938a4b154",
+    "integration-evidence.md": "7ea12a2760fb9d3302d4669e3a6fc599f1b50d3918ce6c4b40cd061b2a0897ca",
+    "layout.angry.exp3.json": "98bacc260d618079f916df94f201c22d8ccde920c029c01fc793ae4dd670e756",
+    "layout.cdi3.json": "4eace4c69f4ecda370bc7543a6e05ec08c46e516949e53c4efc95d2a1e9f5564",
+    "layout.moc3": "0ff1a520f97212e01267c0df867a09afe6036e101874a8fc3cd20f44bd3d740d",
+    "layout.model3.json": "4d95695f7f17c112e203e9de7d67cd9e3600f5ad74b2363a1a21edbd90e62901",
+    "layout.physics3.json": "3ecf3dd44c55bbae30295d2ebb7a05213660f35c90b15ba1be57f4092d563f14",
+    "layout.sad.exp3.json": "e0f88d2ce01fa6f4718051ec6a15c803d70064011cf370cee15e50bf19978c82",
+    "layout.smile.exp3.json": "59e6869c12dad404623dc587086b79909262b1d027bdcf1a27a58aa8c2d50377",
+    "layout.surprised.exp3.json": "9b7850b565e3c2edef7534fb62fa364285063c254b76d079328dc8ee747b9097",
+    "layout.4096/texture_00.png": "f5e85c7e740b9e668bd4cd0d1a1997473091e611682a8e27378b762823036e72"
+  }
+}

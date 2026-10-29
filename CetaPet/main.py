@@ -761,11 +761,13 @@ def load_window_position():
 
 
 def save_window_position(x: int, y: int) -> bool:
-    """把窗口坐标写入 config.json（覆盖式，运行时生成；异常捕获不崩溃）。"""
+    """Legacy/Q position write preserving model preferences and unknown fields."""
     try:
-        with open(CONFIG_PATH, "w", encoding="utf-8") as fh:
-            json.dump({"window_x": int(x), "window_y": int(y)}, fh,
-                      ensure_ascii=False, indent=2)
+        from character_config import CharacterConfig
+        store = CharacterConfig(CONFIG_PATH)
+        saved = store.read()
+        height = saved['geometry'].get('q', {}).get('height', 180)
+        store.update(saved['selected'], {'q': dict(x=int(x), y=int(y), height=height)})
         print(f"[三叶] 【位置保存】config.json <- ({int(x)}, {int(y)})")
         return True
     except Exception as exc:  # noqa: BLE001 —— 权限不足等只警告
@@ -1714,7 +1716,7 @@ class DesktopPet(QWidget):
         print("[三叶] 【拖拽结束】松开鼠标，恢复待机。")
         self._back_to_idle()
         # 用户手动拖拽后记住窗口位置 → config.json（下次启动恢复）
-        save_window_position(self.x(), self.y())
+        self._save_geometry()
 
     # ================= query（查询余额，右键菜单触发） =================
 
@@ -2147,13 +2149,16 @@ class DesktopPet(QWidget):
         """【退出】：先保存当前窗口位置到 config.json，再完全结束进程。
         aboutToQuit → _cleanup 统一停止定时器/销毁气泡/销毁托盘对象。"""
         print("[三叶] 【退出】正在清理并完全退出程序…")
-        save_window_position(self.x(), self.y())   # 退出前保存当前位置（五.6）
+        self._save_geometry()   # 退出前保存当前角色的位置与尺寸
         self._quitting = True       # 允许桌宠/聊天窗口真正关闭（不阻断退出）
         if self._chat_window is not None and self._chat_window.isVisible():
             self._chat_window.close()
         app = QApplication.instance()
         if app is not None:
             app.quit()          # aboutToQuit → _cleanup 统一清理
+
+    def _save_geometry(self):
+        return save_window_position(self.x(), self.y())
 
     def _cleanup(self) -> None:
         """停止全部定时器、销毁气泡组件、销毁托盘对象，杜绝资源残留。"""
@@ -2249,7 +2254,7 @@ class DesktopPet(QWidget):
         self._home_rect = rect
         self.setGeometry(rect)
         self.raise_()
-        save_window_position(self.x(), self.y())
+        self._save_geometry()
         print(f"[三叶] 【重置位置】已移动到右下角 ({self.x()}, {self.y()})。")
 
     # ================= 绘制 =================
@@ -2343,6 +2348,13 @@ def main() -> None:
     else:
         print("[三叶] 【位置恢复】无有效 config.json，使用默认右下角位置。")
     pet.setGeometry(home)
+    if getattr(pet, 'is_sakura', False):
+        from pathlib import Path
+        from model_packages import PackageRegistry
+        from v11_loop_presentation import V11LoopPresentation
+        pet.configure_models(CONFIG_PATH, PackageRegistry(
+            Path(ASSET_ROOT) / 'sakura' / 'in-use' / 'realistic-v11',
+            {'cubism-v11-frames-v1': V11LoopPresentation}))
     pet.show()
     pet.raise_()
     pet.activateWindow()
@@ -2359,6 +2371,8 @@ def main() -> None:
             tray = pet.create_tray() if getattr(pet, 'is_sakura', False) else PetTrayIcon(pet)
             pet.attach_tray(tray)
             app._tray = tray     # 强引用，防垃圾回收
+            if getattr(pet, '_selector_notice', ''):
+                tray.showMessage('角色', pet._selector_notice, QSystemTrayIcon.Information, 5000)
             print("[三叶] 系统托盘已就绪，右键打开菜单；使用【退出】结束程序。")
         except Exception as exc:  # noqa: BLE001 —— 托盘失败不影响桌宠本体运行
             tray = None

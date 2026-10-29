@@ -3,6 +3,7 @@
 The illustration is always sampled at its original resolution. Only the smooth
 material masks are low resolution; no desktop pixels are read or synthesized.
 """
+from collections import OrderedDict
 from functools import lru_cache
 import math
 import random
@@ -12,7 +13,7 @@ try:
 except ImportError:
     np = None  # Older/offline installations can still render the same material.
 
-from PySide6.QtCore import QPointF, Qt
+from PySide6.QtCore import QPointF, QRect, Qt
 from PySide6.QtGui import QColor, QImage, QPainter
 
 CYCLE = 60.0
@@ -72,8 +73,8 @@ def _noise(x, y):
     return (a+(b-a)*fx)*(1-fy)+(c+(d-c)*fx)*fy
 
 
-@lru_cache(maxsize=1)
-def _coordinates():
+@lru_cache(maxsize=8)
+def _coordinates(regions=None):
     points = []
     for row in range(FIELD_HEIGHT):
         y = row/(FIELD_HEIGHT-1)
@@ -87,6 +88,11 @@ def _coordinates():
             ear_free = _ease((y-.23)/.10)
             leg_free = 1-_ease((y-.69)/.11)
             sampling_free = face_free*ear_free*leg_free
+            if regions is not None:
+                sampling_free = float(regions.refraction)
+                for cx, cy, rx, ry, fx, fy in regions.protected:
+                    sampling_free *= max(_ease((abs(x-cx)-rx)/fx),
+                                         _ease((abs(y-cy)-ry)/fy))
             delay = .10+.74*_noise(x*3.1+7.2, y*4.5+1.7)+.08*y
             # Smooth spatial phases give different patches their own lifetime.
             # They are cached, so no per-frame random sparkle or extra sampling.
@@ -97,13 +103,13 @@ def _coordinates():
     return tuple(points)
 
 
-def _fields_scalar(phase):
+def _fields_scalar(phase, regions=None):
     """The exact 0.5 field midpoint between veil and dispersing mist endpoints."""
     local_phase = phase*(CYCLE/12)  # Keep the existing 12-second texture drift.
     c, s = math.cos(local_phase), math.sin(local_phase)
     c2, s2 = math.cos(local_phase*2), math.sin(local_phase*2)
     values = []
-    for x, y, sampling_free, delay, phi, psi, quiet_shift in _coordinates():
+    for x, y, sampling_free, delay, phi, psi, quiet_shift in _coordinates(regions):
         # Small, differently directed drifts: texture changes within the body;
         # nothing revolves around it or travels as a whole horizontal stripe.
         u = x*4.1+.28*math.sin(y*5.3-local_phase)+.42*c
@@ -138,9 +144,9 @@ def _fields_scalar(phase):
     return tuple(values)
 
 
-@lru_cache(maxsize=1)
-def _array_coordinates():
-    points = np.asarray(_coordinates(), dtype=np.float64).T.copy()
+@lru_cache(maxsize=8)
+def _array_coordinates(regions=None):
+    points = np.asarray(_coordinates(regions), dtype=np.float64).T.copy()
     noise = np.asarray(_NOISE, dtype=np.float64)
     points.flags.writeable = noise.flags.writeable = False
     return points, noise
@@ -163,12 +169,12 @@ def _array_noise(x, y, noise):
     return (a+(b-a)*fx)*(1-fy)+(c+(d-c)*fx)*fy
 
 
-@lru_cache(maxsize=3)
-def _fields(phase):
+@lru_cache(maxsize=6)
+def _fields(phase, regions=None):
     """Batch the scalar equations in float64 without quantizing animation time."""
     if np is None:
-        return _fields_scalar(phase)
-    points, noise = _array_coordinates()
+        return _fields_scalar(phase, regions)
+    points, noise = _array_coordinates(regions)
     x, y, sampling_free, delay, phi, psi, quiet_shift = points
     local = phase*(CYCLE/12)
     c, s = math.cos(local), math.sin(local)
@@ -199,7 +205,7 @@ def _fields(phase):
     return values
 
 
-def _mask(values, size, channel, gain=1.0, progress=None):
+def _mask(values, size, channel, gain=1.0, progress=None, fast=False):
     pixels = bytearray(FIELD_WIDTH*FIELD_HEIGHT*4)
     if np is not None and isinstance(values, np.ndarray):
         alpha = values[:, channel]*gain
@@ -216,18 +222,24 @@ def _mask(values, size, channel, gain=1.0, progress=None):
                 visible = 1-_ease((progress*1.65-value[4])/.65)
                 alpha = visible+(1-visible)*value[0]
             pixels[i*4+3] = round(alpha*255)
+    if fast:
+        # These masks contain alpha only. Scaling one channel avoids processing
+        # three empty color channels; artwork remains at full resolution.
+        alpha_bytes = bytes(pixels[3::4])
+        low = QImage(alpha_bytes, FIELD_WIDTH, FIELD_HEIGHT, FIELD_WIDTH, QImage.Format_Alpha8)
+        return low.scaled(size, Qt.IgnoreAspectRatio, Qt.SmoothTransformation).convertToFormat(QImage.Format_ARGB32_Premultiplied)
     low = QImage(pixels, FIELD_WIDTH, FIELD_HEIGHT, FIELD_WIDTH*4,
                  QImage.Format_RGBA8888).copy()
     return low.scaled(size, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
 
 
-def _lingering_fields(phase, fields):
+def _lingering_fields(phase, fields, regions=None):
     """Let local visibility settle and fade without trailing image geometry.
 
     Only opacity is time-filtered. Refraction, tint and transition timing keep
     their original values at the current time; no colors are mixed across time.
     """
-    delayed = [(weight, _fields((phase-math.tau*seconds/CYCLE) % math.tau))
+    delayed = [(weight, _fields((phase-math.tau*seconds/CYCLE) % math.tau, regions))
                for seconds, weight in TRACE_SAMPLES[1:]]
     if np is not None and isinstance(fields, np.ndarray):
         values = fields.copy()
@@ -241,19 +253,62 @@ def _lingering_fields(phase, fields):
                   *value[1:]) for i, value in enumerate(fields))
 
 
-def _surface(raw, phase, fields, strength=1.0):
+_coverage_cache = OrderedDict()
+_coverage_bytes = 0
+_COVERAGE_LIMIT = 64*1024*1024
+
+
+def _surface(raw, phase, fields, strength=1.0, fast=False, canvas=None, crop=None, source_key=None):
+    if fast and np is not None and crop is None:
+        alpha = np.frombuffer(raw.constBits(), np.uint8).reshape(raw.height(), raw.width(), 4)[:, :, 3]
+        xs, ys = np.flatnonzero(alpha.max(axis=0)), np.flatnonzero(alpha.max(axis=1))
+        if len(xs) and len(ys):
+            # Include a transparent margin for both offset samplers. Only empty
+            # canvas is omitted; source resolution and subpixel offsets stay intact.
+            margin = math.ceil(3*raw.width()/144)+2
+            bounds = QRect(int(xs[0]), int(ys[0]), int(xs[-1]-xs[0]+1), int(ys[-1]-ys[0]+1))
+            bounds = bounds.adjusted(-margin,-margin,margin,margin).intersected(raw.rect())
+            if bounds.width()*bounds.height() < raw.width()*raw.height()*.85:
+                tile = _surface(raw.copy(bounds), phase, fields, strength, True, raw.size(), bounds, source_key)
+                result = QImage(raw.size(), QImage.Format_ARGB32_Premultiplied)
+                result.fill(Qt.transparent)
+                painter = QPainter(result)
+                painter.drawImage(bounds.topLeft(), tile)
+                painter.end()
+                return result
+    canvas = canvas if canvas is not None else raw.size()
+    def mask(channel):
+        image = _mask(fields, canvas, channel, strength, fast=fast)
+        return image.copy(crop) if crop is not None else image
     surface = raw.convertToFormat(QImage.Format_ARGB32_Premultiplied)
     surface.setDevicePixelRatio(1)
-    scale = raw.width()/144
+    scale = canvas.width()/144
     # Require nearby source coverage before mixing a refracted sample. Narrow
     # hair strands and antialiased edges keep their original detail and width.
-    interior = raw.copy()
-    p = QPainter(interior)
-    p.setCompositionMode(QPainter.CompositionMode_DestinationIn)
-    p.setRenderHint(QPainter.SmoothPixmapTransform)
-    for dx, dy in ((-1.5, 0), (1.5, 0), (0, -1.5), (0, 1.5)):
-        p.drawImage(QPointF(dx*scale, dy*scale), raw)
-    p.end()
+    global _coverage_bytes
+    cache_key = (source_key, raw.width(), raw.height(), canvas.width(),
+                 crop.x() if crop is not None else 0, crop.y() if crop is not None else 0)
+    interior = _coverage_cache.get(cache_key) if source_key is not None else None
+    if interior is None:
+        interior = raw.copy()
+        p = QPainter(interior)
+        p.setCompositionMode(QPainter.CompositionMode_DestinationIn)
+        p.setRenderHint(QPainter.SmoothPixmapTransform)
+        for dx, dy in ((-1.5, 0), (1.5, 0), (0, -1.5), (0, 1.5)):
+            p.drawImage(QPointF(dx*scale, dy*scale), raw)
+        p.end()
+        if source_key is not None:
+            # Coverage depends only on this immutable source frame, not time.
+            # Only alpha is used by DestinationIn; retain no redundant RGB.
+            interior = interior.convertToFormat(QImage.Format_Alpha8)
+            if interior.sizeInBytes() <= _COVERAGE_LIMIT:
+                while _coverage_cache and _coverage_bytes+interior.sizeInBytes() > _COVERAGE_LIMIT:
+                    _, old = _coverage_cache.popitem(last=False)
+                    _coverage_bytes -= old.sizeInBytes()
+                _coverage_cache[cache_key] = interior
+                _coverage_bytes += interior.sizeInBytes()
+    elif source_key is not None:
+        _coverage_cache.move_to_end(cache_key)
     local_phase = phase*(CYCLE/12)
     offsets = ((.85*math.sin(local_phase+.4), .35*math.cos(local_phase)),
                (-.65*math.cos(local_phase+1.1), .40*math.sin(local_phase*2+.6)))
@@ -264,7 +319,7 @@ def _surface(raw, phase, fields, strength=1.0):
         p.setRenderHint(QPainter.SmoothPixmapTransform)
         p.drawImage(QPointF(dx*scale, dy*scale), raw)
         p.setCompositionMode(QPainter.CompositionMode_DestinationIn)
-        p.drawImage(0, 0, _mask(fields, raw.size(), channel, strength))
+        p.drawImage(0, 0, mask(channel))
         p.drawImage(0, 0, interior)
         p.end()
         p = QPainter(surface)
@@ -273,7 +328,7 @@ def _surface(raw, phase, fields, strength=1.0):
         p.end()
     # A muted film also covers protected anatomy, without moving its source
     # pixels. Original line contrast remains beneath this low-opacity tint.
-    tint = _mask(fields, raw.size(), 3, strength)
+    tint = mask(3)
     p = QPainter(tint)
     p.setCompositionMode(QPainter.CompositionMode_SourceIn)
     p.fillRect(tint.rect(), QColor(*REFLECTION_COLOR))
@@ -285,26 +340,27 @@ def _surface(raw, phase, fields, strength=1.0):
     return surface
 
 
-def material_surface(raw, phase):
+def material_surface(raw, phase, regions=None):
     """Unattenuated detail surface for diagnostic comparison with the artwork."""
     phase = round(phase % math.tau, 9)
-    return _surface(raw, phase, _fields(phase))
+    return _surface(raw, phase, _fields(phase, regions), fast=regions is not None)
 
 
-def _presence_fields(phase, traces):
+def _presence_fields(phase, traces, regions=None):
     """Independent regional rests with a shared, softly approached zero window."""
     seconds = phase*CYCLE/math.tau
+    core_adjust = regions.rest_core_adjust if regions is not None else 0.0
     if np is not None and isinstance(traces, np.ndarray):
         points, _ = _array_coordinates()
         _, _, _, delay, phi, psi, _ = points
         life = .55+.28*np.sin(3*phase+phi)+.17*np.sin(5*phase+psi)
         regional = .06+.94*_array_ease((life-.10)/.55)
-        edge = min(abs((seconds-center+CYCLE/2) % CYCLE-CYCLE/2)-core/2
+        edge = min(abs((seconds-center+CYCLE/2) % CYCLE-CYCLE/2)-(core+core_adjust)/2
                    for center, core, _ in DISAPPEAR_WINDOWS)
         rest = _array_ease(edge/(.85+.65*delay))
         return regional, rest
     result = []
-    edge = min(abs((seconds-center+CYCLE/2) % CYCLE-CYCLE/2)-core/2
+    edge = min(abs((seconds-center+CYCLE/2) % CYCLE-CYCLE/2)-(core+core_adjust)/2
                for center, core, _ in DISAPPEAR_WINDOWS)
     for point in _coordinates():
         _, _, _, delay, phi, psi, _ = point
@@ -331,8 +387,70 @@ def _head_pose(raw, time):
     return 4.5*math.sin(phase), -1.5*math.sin(3*phase), 1.4*math.sin(phase)
 
 
-def _identity_region(raw, time):
+@lru_cache(maxsize=6)
+def _model_identity_geometry(w, h, regions):
+    """Cache only spatial weights. Source colors are always from the current frame."""
+    bounds = [(cx-rx*1.16, cy-ry*1.16, cx+rx*1.16, cy+ry*1.16)
+              for cx, cy, rx, ry in regions.faces]
+    if regions.tie:
+        bounds.append(regions.tie[:4])
+    bounds = bounds or [(0, 0, 0, 0)]
+    x0 = max(0, math.floor(min(b[0] for b in bounds)*w)-2)
+    y0 = max(0, math.floor(min(b[1] for b in bounds)*h)-2)
+    x1 = min(w, math.ceil(max(b[2] for b in bounds)*w)+2)
+    y1 = min(h, math.ceil(max(b[3] for b in bounds)*h)+2)
+    region = (slice(y0, y1), slice(x0, x1))
+    yy, xx = np.mgrid[y0:y1, x0:x1].astype(np.float64)
+    x, y = xx/w, yy/h
+    faces, roi = np.zeros_like(x), np.zeros_like(x)
+    for cx, cy, rx, ry in regions.faces:
+        distance = np.sqrt(((x-cx)/rx)**2+((y-cy)/ry)**2)
+        faces = np.maximum(faces, 1-_array_ease((distance-.74)/.42))
+    if regions.tie:
+        left, top, right, bottom, feather = regions.tie
+        roi = (_array_ease((x-left)/feather)*_array_ease((right-x)/feather)
+               *_array_ease((y-top)/feather)*_array_ease((bottom-y)/feather))
+    faces.flags.writeable = roi.flags.writeable = False
+    return region, faces, roi
+
+
+def _model_identity_region(raw, regions):
+    """Limit source-resolution feature work to the supplied model's support."""
+    region, faces, roi = _model_identity_geometry(raw.width(), raw.height(), regions)
+    ties = np.zeros_like(faces)
+    if regions.tie:
+        ys, xs = region
+        image = raw.copy(xs.start, ys.start, xs.stop-xs.start, ys.stop-ys.start).convertToFormat(QImage.Format_RGBA8888)
+        rgba = np.frombuffer(image.constBits(), np.uint8).reshape(ys.stop-ys.start, xs.stop-xs.start, 4)
+        red, green, blue = (rgba[:, :, i].astype(np.float64) for i in range(3))
+        ties = roi*_array_ease((red-np.maximum(green, blue)-12)/28)*_array_ease((red-65)/35)
+    return region, faces, ties
+
+
+def _model_identity_weights(raw, regions):
+    image = raw.convertToFormat(QImage.Format_RGBA8888)
+    w, h = image.width(), image.height()
+    faces, ties = [], []
+    for py in range(h):
+        for px in range(w):
+            x, y = px/w, py/h
+            faces.append(max((1-_ease((math.hypot((x-cx)/rx, (y-cy)/ry)-.74)/.42)
+                              for cx, cy, rx, ry in regions.faces), default=0.))
+            tie = 0.
+            if regions.tie:
+                left, top, right, bottom, feather = regions.tie
+                red, green, blue, _ = image.pixelColor(px, py).getRgb()
+                roi = (_ease((x-left)/feather)*_ease((right-x)/feather)
+                       *_ease((y-top)/feather)*_ease((bottom-y)/feather))
+                tie = roi*_ease((red-max(green, blue)-12)/28)*_ease((red-65)/35)
+            ties.append(tie)
+    return faces, ties
+
+
+def _identity_region(raw, time, regions=None):
     """Evaluate the unchanged weights only where their support can be nonzero."""
+    if regions is not None:
+        return _model_identity_region(raw, regions)
     sway, dy, tilt = _head_pose(raw, time)
     angle = math.radians(tilt)
     c, s = math.cos(angle), math.sin(angle)
@@ -373,14 +491,16 @@ def _identity_region(raw, time):
     return region, face, tie
 
 
-def _identity_weights(raw, time):
+def _identity_weights(raw, time, regions=None):
     """Full-size diagnostic weights; the render path uses only their support."""
     if np is not None:
-        region, face, tie = _identity_region(raw, time)
+        region, face, tie = _identity_region(raw, time, regions)
         faces = np.zeros((raw.height(), raw.width()), np.float64)
         ties = np.zeros_like(faces)
         faces[region], ties[region] = face, tie
         return faces, ties
+    if regions is not None:
+        return _model_identity_weights(raw, regions)
     sway, dy, tilt = _head_pose(raw, time)
     angle = math.radians(tilt)
     c, s = math.cos(angle), math.sin(angle)
@@ -433,8 +553,24 @@ def _enrich_tie_red(surface, selection, progress):
     return surface
 
 
-def _visibility_mask(raw, phase, traces, progress, time, selection=None):
-    regional, rest = _presence_fields(phase, traces)
+@lru_cache(maxsize=8)
+def _visibility_profile(regions):
+    gains, delays = [], []
+    for x, y, *_ in _coordinates(regions):
+        lift, reduction, delay = 0., 0., 0.
+        for cx, cy, rx, ry, fx, fy, gain, shift in regions.visibility:
+            weight = (1-_ease((abs(x-cx)-rx)/fx))*(1-_ease((abs(y-cy)-ry)/fy))
+            lift = max(lift, (gain-1)*weight)
+            reduction = min(reduction, (gain-1)*weight)
+            if abs(shift*weight) > abs(delay):
+                delay = shift*weight
+        gains.append(1+lift+reduction)
+        delays.append(delay)
+    return tuple(gains), tuple(delays)
+
+
+def _visibility_mask(raw, phase, traces, progress, time, selection=None, regions=None):
+    regional, rest = _presence_fields(phase, traces, regions)
     # Keep extra masks at the existing 40x56 control resolution. Only feature
     # selection uses source-resolution pixels so thin red ties are not widened.
     if np is not None and isinstance(traces, np.ndarray):
@@ -445,8 +581,17 @@ def _visibility_mask(raw, phase, traces, progress, time, selection=None):
     else:
         body = tuple((value[0]*regional[i]*rest[i], *value[1:]) for i, value in enumerate(traces))
         identity = tuple((value[0]*(.90+.10*regional[i])*rest[i], *value[1:]) for i, value in enumerate(traces))
-    base = _mask(body, raw.size(), 0, progress=progress)
-    identity_mask = _mask(identity, raw.size(), 0, progress=progress)
+    if regions is not None and regions.visibility:
+        gains, delays = _visibility_profile(regions)
+        if np is not None:
+            body[:, 0] = np.minimum(body[:, 0]*(1+(np.asarray(gains)-1)*_array_ease(rest/.25)), HIDDEN_PEAK_OPACITY)
+            body[:, 4] += delays
+            identity[:, 4] += delays
+        else:
+            body = tuple((min(v[0]*(1+(gains[i]-1)*_ease(rest[i]/.25)), HIDDEN_PEAK_OPACITY), *v[1:4], v[4]+delays[i]) for i,v in enumerate(body))
+            identity = tuple((*v[:4], v[4]+delays[i]) for i,v in enumerate(identity))
+    base = _mask(body, raw.size(), 0, progress=progress, fast=regions is not None)
+    identity_mask = _mask(identity, raw.size(), 0, progress=progress, fast=regions is not None)
     # The masks already carry the fade. A constant lift cap keeps their
     # monotonic fall through quantized plateaus; a growing cap can brighten
     # one alpha level near the end. Zero masks still have no alpha floor.
@@ -461,7 +606,12 @@ def _visibility_mask(raw, phase, traces, progress, time, selection=None):
                        +(TIE_GAIN-1)*ties*TIE_EMPHASIS_SCALE)
         emphasis_scale = np.divide(scaled_gain, gain, out=np.ones_like(gain), where=gain > 0)
         lifted = b+np.minimum(b*gain, 255*IDENTITY_MAX_LIFT)*emphasis_scale
-        alpha = np.rint(a+(lifted-a)*weight).clip(0, 255).astype(np.uint8)
+        combined = a+(lifted-a)*weight
+        if regions is not None and regions.ribbon_gain != 1:
+            # Residual-only boost: normal/transitional opaque pixels never brighten.
+            boost = (regions.ribbon_gain-1)*ties*_ease(progress)
+            combined += np.minimum(combined*boost, np.maximum(0, 255*HIDDEN_PEAK_OPACITY-combined))
+        alpha = np.rint(combined).clip(0, 255).astype(np.uint8)
         # Outside this exact support weight=0, hence the old expression is
         # identically the body's existing alpha. Reuse that image unchanged.
         pixels[:, :, 3][region] = alpha
@@ -476,11 +626,15 @@ def _visibility_mask(raw, phase, traces, progress, time, selection=None):
                        +(TIE_GAIN-1)*tie*TIE_EMPHASIS_SCALE)
         emphasis_scale = scaled_gain/gain if gain > 0 else 1
         lifted = b+min(b*gain,255*IDENTITY_MAX_LIFT)*emphasis_scale
-        data[i*4+3] = min(255, max(0, round(a+(lifted-a)*max(face, tie))))
+        combined = a+(lifted-a)*max(face, tie)
+        if regions is not None and regions.ribbon_gain != 1:
+            boost = (regions.ribbon_gain-1)*tie*_ease(progress)
+            combined += min(combined*boost, max(0,255*HIDDEN_PEAK_OPACITY-combined))
+        data[i*4+3] = min(255, max(0, round(combined)))
     return QImage(data, raw.width(), raw.height(), raw.width()*4, QImage.Format_RGBA8888).copy()
 
 
-def irregular_stealth(frame, progress, time):
+def irregular_stealth(frame, progress, time, regions=None):
     """One reversible material state for dissolve, hidden hold and reappearance."""
     if progress <= 0:
         return frame
@@ -489,14 +643,16 @@ def irregular_stealth(frame, progress, time):
     raw = frame.copy()
     raw.setDevicePixelRatio(1)
     phase = round(math.tau*(time % CYCLE)/CYCLE, 9)
-    fields = _fields(phase)
-    out = _surface(raw, phase, fields, _ease(progress/.55))
-    selection = _identity_region(raw, time) if np is not None else _identity_weights(raw, time)
+    fields = _fields(phase, regions)
+    out = _surface(raw, phase, fields, _ease(progress/.55), fast=regions is not None,
+                   source_key=frame.cacheKey() if regions is not None else None)
+    selection = (_identity_region(raw, time, regions) if np is not None
+                 else _identity_weights(raw, time, regions))
     _enrich_tie_red(out, selection, progress)
-    traces = _lingering_fields(phase, fields)
+    traces = _lingering_fields(phase, fields, regions)
     p = QPainter(out)
     p.setCompositionMode(QPainter.CompositionMode_DestinationIn)
-    p.drawImage(0, 0, _visibility_mask(raw, phase, traces, progress, time, selection))
+    p.drawImage(0, 0, _visibility_mask(raw, phase, traces, progress, time, selection, regions))
     p.end()
     out.setDevicePixelRatio(dpr)
     return out

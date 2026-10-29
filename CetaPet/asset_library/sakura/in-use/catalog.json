@@ -1,0 +1,127 @@
+[
+  {
+    "role": "后发",
+    "path": "CetaPet/asset_library/sakura/in-use/q/back_hair.png",
+    "sha256": "ec575437cd976f6619998164b0593b14e4d5d63f3065f805c8c81875d4fe0754"
+  },
+  {
+    "role": "左腿",
+    "path": "CetaPet/asset_library/sakura/in-use/q/left_leg.png",
+    "sha256": "fe3baab18d5671c6bec51caa6cc18f972d64043ba260c82eca7b6da55d5475f0"
+  },
+  {
+    "role": "右腿",
+    "path": "CetaPet/asset_library/sakura/in-use/q/right_leg.png",
+    "sha256": "58a76cb7c38f04a7f1c7ccc8babcb5fc7e99f35049edf881bf6e5e117279e274"
+  },
+  {
+    "role": "躯干衣服",
+    "path": "CetaPet/asset_library/sakura/in-use/q/torso.png",
+    "sha256": "b9e069d1533bc958e2993aa52ac9dcfffc3330a451b7ad058026596f72b3aa3e"
+  },
+  {
+    "role": "左臂袖",
+    "path": "CetaPet/asset_library/sakura/in-use/q/left_arm.png",
+    "sha256": "dbfc942b35e70860e5a4ba7eb7783c407c89ee28bff8edd955c3e7605af9903a"
+  },
+  {
+    "role": "右臂袖",
+    "path": "CetaPet/asset_library/sakura/in-use/q/right_arm.png",
+    "sha256": "8bb6129fc09549c846a4347bc4850bcb7ec4e34a14444cbe9cde16b6c5f8e9b3"
+  },
+  {
+    "role": "睁眼头部/五官来源",
+    "path": "CetaPet/asset_library/sakura/in-use/q/head_open.png",
+    "sha256": "bdfa22f8e1c1049f8a10920f9b12098660d602ba1eb3d1459e4f9b9b956ba784"
+  },
+  {
+    "role": "无五官头底",
+    "path": "CetaPet/asset_library/sakura/in-use/q/head_base.png",
+    "sha256": "e60d7883a94955b5dfe4d9ea56b661566da516fe41b59876eae47f3ecc067dd0"
+  },
+  {
+    "role": "闭眼头部",
+    "path": "CetaPet/asset_library/sakura/in-use/q/head_closed.png",
+    "sha256": "f1c2aac0bc25ca588dd29abdb578cb682b960ea81ddbd77974c6882e4a13273a"
+  },
+  {
+    "role": "左前发",
+    "path": "CetaPet/asset_library/sakura/in-use/q/front_left.png",
+    "sha256": "10cabd73cd00cf79861e203c34a4e275ac75c85dd5fdcdb1b11d567a5f674673"
+  },
+  {
+    "role": "右前发",
+    "path": "CetaPet/asset_library/sakura/in-use/q/front_right.png",
+    "sha256": "38faf3a647340e18d2e046bcd54325e19a639665c02568215570d1cbfe7b4838"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/eyes-samples.json",
+    "sha256": "9576c9eaf2c592407e1f951f5253dfa2f0c1ddf7c875a46484c08095d9560975"
+  },
+  {
+    "role": "实际播放的6秒循环",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/eyes.webp",
+    "sha256": "823d1a621931f12b8990d6fbc5d8cae91c17d378b02643bb58dc5d4938a4b154"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/integration-evidence.md",
+    "sha256": "7ea12a2760fb9d3302d4669e3a6fc599f1b50d3918ce6c4b40cd061b2a0897ca"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.4096/texture_00.png",
+    "sha256": "f5e85c7e740b9e668bd4cd0d1a1997473091e611682a8e27378b762823036e72"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.angry.exp3.json",
+    "sha256": "98bacc260d618079f916df94f201c22d8ccde920c029c01fc793ae4dd670e756"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.cdi3.json",
+    "sha256": "4eace4c69f4ecda370bc7543a6e05ec08c46e516949e53c4efc95d2a1e9f5564"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.moc3",
+    "sha256": "0ff1a520f97212e01267c0df867a09afe6036e101874a8fc3cd20f44bd3d740d"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.model3.json",
+    "sha256": "4d95695f7f17c112e203e9de7d67cd9e3600f5ad74b2363a1a21edbd90e62901"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.physics3.json",
+    "sha256": "3ecf3dd44c55bbae30295d2ebb7a05213660f35c90b15ba1be57f4092d563f14"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.sad.exp3.json",
+    "sha256": "e0f88d2ce01fa6f4718051ec6a15c803d70064011cf370cee15e50bf19978c82"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.smile.exp3.json",
+    "sha256": "59e6869c12dad404623dc587086b79909262b1d027bdcf1a27a58aa8c2d50377"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.surprised.exp3.json",
+    "sha256": "9b7850b565e3c2edef7534fb62fa364285063c254b76d079328dc8ee747b9097"
+  },
+  {
+    "role": "v11运行包",
+    "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/manifest.json",
+    "sha256": "fbb9be4d2d257b3d885c393ca2f52994be3a1c8e12f28acd98daf3a990fb1b49"
+  },
+  {
+    "role": "桌面快捷方式图标（固定路径保留）",
+    "path": "CetaPet/asset_library/sakura/sakura.ico",
+    "sha256": "098ba99cf226251f4c0ad37e658ecab90afa979644ab36fa4d7d8fe533706199"
+  }
+]

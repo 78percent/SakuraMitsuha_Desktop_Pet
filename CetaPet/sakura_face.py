@@ -17,7 +17,6 @@ FACE_PARAMS = {
     'smug': (.78,.87,-2,0,-1.7,.6,2,0,1.8,12),
     'smile': (.93,.93,0,0,0,0,3.5,0,0,13),
 }
-ACTION_EXPRESSION = {'hair':'smug','sleeve':'focused'}
 
 def mix_face(a,b,t):
     t=max(0,min(1,t));t=t*t*(3-2*t)

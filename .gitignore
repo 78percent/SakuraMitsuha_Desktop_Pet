@@ -28,21 +28,29 @@ CetaPet/asset_library/API_KEY.txt
 /CetaPet/README.upstream.md
 /CetaPet/disabled_v4/
 /CetaPet/asset_library/sakura/v4/
+/CetaPet/asset_library/sakura/realistic/
+/CetaPet/asset_library/sakura/in-use/README.md
+/CetaPet/asset_library/sakura/atlas_manifest.json
+/CetaPet/asset_library/sakura/face_base_v2.png
+/CetaPet/asset_library/sakura/face_manifest_v2.json
+/CetaPet/asset_library/sakura/generation_prompts.md
+/CetaPet/asset_library/sakura/generation_v2.json
+/CetaPet/asset_library/sakura/parts_atlas_v1.png
+/CetaPet/icon.ico
+/CetaPet/live2d_presentation.py
 /assets/reference/persona_clean_v1.txt
 /assets/reference/grok_headshot_reference.png
 
-# Publish the current release record; older machine-specific records stay local.
-/openspec/changes/*
-!/openspec/changes/personalize-sakura-public-release/
-/openspec/notes/
+# Local development records, tests and authoring tools.
+/openspec/
+/tests/
+/tools/
 
-# Reproducible public checks; historical image-comparison suites stay local.
-/tests/*
-!/tests/test_runtime.py
-!/tests/test_single_instance.py
-!/tests/test_public_release.py
-/tools/*
-!/tools/ipc_test_worker.py
+# Local research, diagnostics and optional authoring tools.
+/experiments/
+/tmp/
+/.rgignore
+/requirements-tools.txt
 
 *.bak
 *.tmp
