@@ -57,3 +57,7 @@ CetaPet/asset_library/API_KEY.txt
 *.dmp
 .DS_Store
 Thumbs.db
+
+# Complete local rollback packages and staging exports.
+/CetaPet/asset_library/sakura/retained/
+/CetaPet/asset_library/sakura/staged/

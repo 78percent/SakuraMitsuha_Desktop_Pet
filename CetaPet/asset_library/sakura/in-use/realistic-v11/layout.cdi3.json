@@ -2,6 +2,96 @@
 	"Version": 3,
 	"Parameters": [
 		{
+			"Id": "ParamGustSleeveR",
+			"GroupId": "",
+			"Name": "ParamGustSleeveR"
+		},
+		{
+			"Id": "ParamGustSleeveL",
+			"GroupId": "",
+			"Name": "ParamGustSleeveL"
+		},
+		{
+			"Id": "ParamEarYieldR",
+			"GroupId": "",
+			"Name": "耳尖柔性右"
+		},
+		{
+			"Id": "ParamEarListenR",
+			"GroupId": "",
+			"Name": "耳廓转向右"
+		},
+		{
+			"Id": "ParamEarYieldL",
+			"GroupId": "",
+			"Name": "耳尖柔性左"
+		},
+		{
+			"Id": "ParamEarListenL",
+			"GroupId": "",
+			"Name": "耳廓转向左"
+		},
+		{
+			"Id": "ParamEarAction",
+			"GroupId": "",
+			"Name": "耳部动作选择"
+		},
+		{
+			"Id": "ParamIdleKneeR",
+			"GroupId": "",
+			"Name": "ParamIdleKneeR"
+		},
+		{
+			"Id": "ParamIdleKneeL",
+			"GroupId": "",
+			"Name": "ParamIdleKneeL"
+		},
+		{
+			"Id": "ParamIdleRibbonB",
+			"GroupId": "",
+			"Name": "ParamIdleRibbonB"
+		},
+		{
+			"Id": "ParamIdleRibbonA",
+			"GroupId": "",
+			"Name": "ParamIdleRibbonA"
+		},
+		{
+			"Id": "ParamIdleCoatR",
+			"GroupId": "",
+			"Name": "ParamIdleCoatR"
+		},
+		{
+			"Id": "ParamIdleCoatL",
+			"GroupId": "",
+			"Name": "ParamIdleCoatL"
+		},
+		{
+			"Id": "ParamIdleSkirt",
+			"GroupId": "",
+			"Name": "ParamIdleSkirt"
+		},
+		{
+			"Id": "ParamIdleHairR",
+			"GroupId": "",
+			"Name": "ParamIdleHairR"
+		},
+		{
+			"Id": "ParamIdleHairL",
+			"GroupId": "",
+			"Name": "ParamIdleHairL"
+		},
+		{
+			"Id": "ParamIdleLockR",
+			"GroupId": "",
+			"Name": "ParamIdleLockR"
+		},
+		{
+			"Id": "ParamIdleLockL",
+			"GroupId": "",
+			"Name": "ParamIdleLockL"
+		},
+		{
 			"Id": "ParamAngleX",
 			"GroupId": "ParamGroupFace",
 			"Name": "角度 X"

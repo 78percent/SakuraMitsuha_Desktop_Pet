@@ -57,22 +57,22 @@
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/eyes-samples.json",
-    "sha256": "9576c9eaf2c592407e1f951f5253dfa2f0c1ddf7c875a46484c08095d9560975"
+    "sha256": "8473ce9f695750a746e26ff742498ebb3bb37694b1e884bad9c90bf9be563f49"
   },
   {
-    "role": "实际播放的6秒循环",
+    "role": "实际播放的30秒精修循环",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/eyes.webp",
-    "sha256": "823d1a621931f12b8990d6fbc5d8cae91c17d378b02643bb58dc5d4938a4b154"
+    "sha256": "7952b3bce444ef57ad39826a4688e855bc01845e652935db1d823d6c9e137474"
   },
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/integration-evidence.md",
-    "sha256": "7ea12a2760fb9d3302d4669e3a6fc599f1b50d3918ce6c4b40cd061b2a0897ca"
+    "sha256": "06334474a331c554e39a9f28dfa9ad0a870dee95c40de1390b9801e9d463595b"
   },
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.4096/texture_00.png",
-    "sha256": "f5e85c7e740b9e668bd4cd0d1a1997473091e611682a8e27378b762823036e72"
+    "sha256": "51456d39fcddd1ba0fffb6376b606a3a87cdc22533d8cfce0713904f2ce9f21e"
   },
   {
     "role": "v11运行包",
@@ -82,12 +82,12 @@
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.cdi3.json",
-    "sha256": "4eace4c69f4ecda370bc7543a6e05ec08c46e516949e53c4efc95d2a1e9f5564"
+    "sha256": "185db2174614ed211bed485df7b13dcd3d79645c8db9b2a40eac00fce3733c90"
   },
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.moc3",
-    "sha256": "0ff1a520f97212e01267c0df867a09afe6036e101874a8fc3cd20f44bd3d740d"
+    "sha256": "3503ab792cb1db73159ecd39c5a5420a49d6a5a74e035d8a615992c79f1b5b0d"
   },
   {
     "role": "v11运行包",
@@ -97,7 +97,7 @@
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/layout.physics3.json",
-    "sha256": "3ecf3dd44c55bbae30295d2ebb7a05213660f35c90b15ba1be57f4092d563f14"
+    "sha256": "cce366e8aa0c01d46b8eab2bc20df74b982fb3e310a86696b6ba536b6dfe24ab"
   },
   {
     "role": "v11运行包",
@@ -117,7 +117,7 @@
   {
     "role": "v11运行包",
     "path": "CetaPet/asset_library/sakura/in-use/realistic-v11/manifest.json",
-    "sha256": "fbb9be4d2d257b3d885c393ca2f52994be3a1c8e12f28acd98daf3a990fb1b49"
+    "sha256": "bfc4a464b46f8066f2bc61fd2e7f1b6d36f2e3b4da1eb1c575cb77e7aef93653"
   },
   {
     "role": "桌面快捷方式图标（固定路径保留）",

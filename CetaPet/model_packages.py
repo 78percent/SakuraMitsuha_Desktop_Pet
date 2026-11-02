@@ -132,10 +132,10 @@ def validate_package(folder):
     animation = manifest.get('animation', {})
     if (not isinstance(animation, dict) or animation.get('kind') != 'sdk-rendered-loop'
             or type(animation.get('fps')) is not int or animation['fps'] != 30
-            or type(animation.get('frames')) is not int or animation['frames'] != 180):
+            or type(animation.get('frames')) is not int or animation['frames'] not in (180, 900)):
         raise PackageError('待机动画声明无效')
     rows = json.loads(resource(animation.get('file')).read_text(encoding='utf-8'))
-    if (not isinstance(rows, list) or len(rows) != 181
+    if (not isinstance(rows, list) or len(rows) != animation['frames'] + 1
             or any(not isinstance(row, dict) or not isinstance(row.get('parameters'), dict)
                    for row in rows)):
         raise PackageError('待机动画轨迹无效')
@@ -145,7 +145,10 @@ def validate_package(folder):
             raise PackageError('待机动画参数无效')
     preview = resource(animation.get('preview'))
     reader = QImageReader(str(preview))
-    if not reader.supportsAnimation() or reader.imageCount() != 181:
+    # Retained packages may include one validation endpoint after the loop.
+    # Playback uses only the declared 180 or 900 frames.
+    if (not reader.supportsAnimation()
+            or reader.imageCount() not in (animation['frames'], animation['frames'] + 1)):
         raise PackageError('v11 动画帧文件无效')
     return manifest
 

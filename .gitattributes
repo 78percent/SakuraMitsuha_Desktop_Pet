@@ -1,0 +1,4 @@
+CetaPet/asset_library/sakura/in-use/realistic-v11/eyes.webp filter=lfs diff=lfs merge=lfs -text
+
+# Package hashes require exact bytes on every checkout.
+CetaPet/asset_library/sakura/in-use/realistic-v11/** -text

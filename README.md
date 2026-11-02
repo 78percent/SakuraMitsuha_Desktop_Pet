@@ -10,7 +10,7 @@
 
 | Q 版 | 写实版 |
 | --- | --- |
-| 11 张分层图片组成，默认显示；支持待机、眨眼、呼吸、发摆和五种表情。 | 独立的 Live2D/Cubism 制作路线，已有模型、贴图、骨骼绑定及表情数据。桌宠当前使用 v11 模型预先渲染的 6 秒动画帧循环。 |
+| 11 张分层图片组成，默认显示；支持待机、眨眼、呼吸、发摆和五种表情。 | 独立的 Live2D/Cubism 制作路线，已有模型、贴图、骨骼绑定及表情数据。桌宠当前使用 v11 模型预先渲染的 30 秒精修动画帧循环。 |
 
 上方全身图展示写实模型的 v17 制作预览。下图是 v11 腿部骨骼与关节位置的局部示意，并非整套骨骼图：
 
@@ -18,22 +18,30 @@
   <img src="assets/showcase/live2d-leg-rig-v11.png" alt="写实模型腿部骨骼与关节示意" height="300">
 </p>
 
-制作目录另有后续模型版本：v22 增加发带跟随绑定，微风待机曲线也已单独保留。眼脸、衣发衔接及连续变形仍在调整；这些制作版本尚未替换仓库中的 v11 运行包。目前写实版通过预渲染帧播放，暂不在桌宠中实时驱动骨骼。
+写实运行包已更新为 30 秒持续风精修待机：衣袖、裙摆、长袍和头发持续摆动，保留自然腿型与贴地重心；三次耳动配合眼神，四次开口独立安排。此次清理裙腿黑碎边、红绳残影与眼发交界，并轻修发丝纹理。放大仍可见原图像素感，当前待机认可不代表整模型制作完成。
+
+写实版通过预渲染帧播放，暂不在桌宠中实时驱动骨骼。
+
+<p align="center">
+  <img src="assets/showcase/current-idle-polish.png" alt="当前30秒精修待机的第13秒画面" height="360">
+</p>
 
 ## 当前功能
 
-- 两种角色形象：Q 版默认显示，写实版提供 v11 模型的 6 秒循环动画。
+- 两种角色形象：Q 版默认显示，写实版提供 30 秒持续风精修循环动画（900 帧）。
 - 两种样式均可使用透明材质与渐变转场；角色样式从右键菜单切换。
 - 左键拖动与位置记忆、角色大小调整、系统托盘及重复启动召回。
 - DeepSeek 多轮聊天、账户余额查询、API 密钥设置；可导入 `.txt`、`.docx` 作为聊天参考资料。
 
 ## 安装
 
-适用环境：Windows、Python **3.11**。安装 [Python 3.11](https://www.python.org/downloads/) 后克隆仓库并运行安装脚本：
+适用环境：Windows、Python **3.11**。安装 [Python 3.11](https://www.python.org/downloads/) 并安装 [Git LFS](https://git-lfs.com/) 后克隆仓库并运行安装脚本。透明动画通过 Git LFS 保存，请使用 Git 克隆，不要仅下载源码 ZIP：
 
 ```powershell
+git lfs install
 git clone https://github.com/78percent/SakuraMitsuha_Desktop_Pet.git
 cd SakuraMitsuha_Desktop_Pet
+git lfs pull
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup_env.ps1
 ```
 

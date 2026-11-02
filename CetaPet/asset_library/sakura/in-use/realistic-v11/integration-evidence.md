@@ -1,17 +1,10 @@
-# v11 桌宠接入
+# 三十秒持续风精修待机
 
-- 来源：`D:/mesh-avatar-studio/projects/sakura-fresh-v1/native/export-v11-repair/` 的 Cubism 导出。
-- 参数轨迹：`native/runtime-stress-v11/eyes-samples.json`，6 秒、30 Hz、180 个循环区间，末帧只供闭环核对。
-- 本次桌宠播放同一版 moc3 经独立 Cubism SDK 渲染出的 WebP 帧；moc3、纹理和参数轨迹也随包保留。
-- 原生实时渲染器已编写，但本机后台创建 OpenGL 上下文触发访问冲突，不能作为当前默认适配器。
-- 用户在 2026-10-29 授权先接入此 v11 循环，进一步视觉调教待回家后进行。
-- v11 腿根、髋骨骼和嘴部获得局部认可；整模型、眼角与头发连接尚未获得整体认可。
-- 本目录的 `runtime-ready` 只表示帧播放路径通过运行验证，不表示实时 Live2D 或整模型视觉验收。
-
-## 2026-10-29 实测
-
-- `validate_package` 读回 12 项资源及 SHA-256，WebP 为 181 帧，循环使用前 180 帧。
-- 180 帧按顺序离屏读取：180 像素档中位 11.64 ms、p95 20.61 ms；720 像素档中位 13.06 ms、p95 21.93 ms。这是渲染调用耗时，不是屏幕帧率。
-- 30 项切换相关测试通过，包含实际 v11 包载入、首帧、返回 Q版、配置回退、右键菜单和同一尺寸档。
-- `openspec validate design-sakura-cubism-alternate-model --strict` 通过。
-- 新版桌宠进程已启动，Windows 报告主窗口“佐仓三叶”响应正常；Computer Use 的窗口清单没有列出透明工具窗口，本轮未取得桌面画面目视证据。
+2026-11-02，用户明确要求把当前对话的 polish 精修版应用到桌宠并提交 GitHub。
+来源：three-source-refinement/polish；不包含另一候选 polish2。
+900帧/30000毫秒，901个验证采样（最后一个是闭环端点，不额外播放）。
+保留自然腿型与持续风，三次耳动、四次开口（每次原3秒）；清理裙腿黑碎边、红绳残影与眼发边缘，轻修发丝纹理。
+制作阶段三循环、重开、保护与媒体检查通过。当前使用预渲染帧播放，非实时Cubism/OpenGL。
+认可限当前待机，整模型验收保持未完成；放大仍有源图像素感。
+替换前整包保存在本地 retained/realistic-v11-before-polish-20261102。
+接入检查记录：docs/maintenance/polish-integration-20261102/。
